@@ -303,5 +303,24 @@
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_191043CZ_RGB_1000x.jpg?v=1582991957",
       "category": "Rings"
     }
-  ]
+  ],
+
+  "Users":
+[
+  {
+" id":"1",
+"email":"kayyali132@gmail.com "
+,"password":"kayyali1"
+,"username": "Mohammad kayyali"
+,"Image":"./"
+,"IsLogin":false,
+"phone":"0776202831",
+"Address":"Amman",
+"History":[],
+"Favorite ":[]
+
+}]
+
+
+
 }
