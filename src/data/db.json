@@ -4,7 +4,6 @@
       "id": 1,
       "name": "Elegant Diamond Necklace",
       "price": 1499,
-
       "description": "A stunning diamond necklace that exudes elegance and sophistication.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
       "category": "Necklaces"
@@ -20,8 +19,7 @@
     {
       "id": 3,
       "name": "Tanzanite and Diamond Pendant",
-      "price": 999,
-
+      "price": 500,
       "description": "An exquisite tanzanite and diamond pendant that captures attention with its vibrant colors.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_1024x1024.jpg?v=1435561424",
       "category": "Necklaces"
@@ -89,7 +87,7 @@
     },
     {
       "id": 11,
-      "name": "Gold Hoop Earrings",
+      "name": " Hoop Earrings",
       "price": 199,
       "description": "Classic and versatile gold hoop earrings that complement any style.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_268820C01_RGB_1000x1000.png?v=1681296011https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_268820C01_RGB_1000x1000.png?v=1681296011",
@@ -105,7 +103,7 @@
     },
     {
       "id": 13,
-      "name": "Rose Gold Drop Earrings",
+      "name": "Rose  Drop Earrings",
       "price": 349,
       "description": "Elegant rose gold drop earrings that sway with grace and beauty.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/files/WEB_262686C01_RGB_1000x1000.png?v=1685435796",
@@ -131,18 +129,14 @@
       "id": 16,
       "name": "Diamond Huggie Earrings",
       "price": 799,
-      "material": "White Gold",
-      "gemstone": "Diamond",
       "description": "Chic and versatile diamond huggie earrings that add a touch of sparkle to any look.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_280591CZ_RGB_1000x.jpg?v=1582104754",
       "category": "Earrings"
     },
     {
       "id": 17,
-      "name": "Rose Gold Bracelet",
+      "name": "Rose  Bracelet",
       "price": 799,
-      "material": "Rose Gold",
-      "gemstone": "None",
       "description": "A beautiful rose gold bracelet that adds a touch of warmth and elegance to your wrist.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/hc3xi2rknb2v4g8erwd3rftsd9u233m4_1000x.jpg?v=1678258708",
       "category": "Bracelets"
@@ -151,8 +145,6 @@
       "id": 18,
       "name": "Diamond Tennis Bracelet",
       "price": 2999,
-      "material": "White Gold",
-      "gemstone": "Diamond",
       "description": "A timeless and luxurious diamond tennis bracelet that dazzles with every movement.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_592403C01_RGB_1000x.png?v=1667742718",
       "category": "Bracelets"
@@ -161,8 +153,7 @@
       "id": 19,
       "name": "Silver Cuff Bracelet",
       "price": 299,
-      "material": "Sterling Silver",
-      "gemstone": "None",
+
       "description": "A sleek and modern silver cuff bracelet that adds a touch of sophistication.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_599539C00_RGB_1000x.png?v=1627829632",
       "category": "Bracelets"
@@ -171,38 +162,30 @@
       "id": 20,
       "name": "Silver Charm Bracelet",
       "price": 199,
-      "material": "Sterling Silver",
-      "gemstone": "None",
       "description": "A delightful silver charm bracelet that allows you to showcase your personal style.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_592398C01_RGB_1000x.png?v=1667229992",
       "category": "Bracelets"
     },
     {
       "id": 21,
-      "name": "Gold Bangle Bracelet",
+      "name": " Bangle Bracelet",
       "price": 599,
-      "material": "Yellow Gold",
-      "gemstone": "None",
       "description": "A sleek and stylish gold bangle bracelet that adds a touch of sophistication to any outfit.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590524CZ_RGB_1800x1800.jpg?v=1582483360",
       "category": "Bracelets"
     },
     {
       "id": 22,
-      "name": "Rose Gold Infinity Bracelet",
+      "name": "Rose  Infinity Bracelet",
       "price": 349,
-      "material": "Rose Gold",
-      "gemstone": "None",
       "description": "A symbol of eternal love, this rose gold infinity bracelet makes a meaningful gift.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590702HV_RGB_1000x.jpg?v=1582549504",
       "category": "Bracelets"
     },
     {
       "id": 23,
-      "name": "Gold Link Bracelet",
+      "name": "Link Bracelet",
       "price": 599,
-      "material": "Yellow Gold",
-      "gemstone": "None",
       "description": "A stylish gold link bracelet that adds a touch of elegance to your wrist.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590719_RGB_1000x.jpg?v=1585587635",
       "category": "Bracelets"
@@ -211,8 +194,6 @@
       "id": 24,
       "name": "Sparkling Endless Hearts Chain Bracelet",
       "price": 599,
-      "material": "Yellow Gold",
-      "gemstone": "None",
       "description": "Fall in love many times over with the Sparkling Endless Hearts Chain Bracelet. This tennis bracelet-inspired design features six heart-shaped clear cubic zirconia set in alternating directions. A small heart-shaped stone dangles beside the lobster clasp to add extra sparkle. Wear it on its own or stack bracelets of different colours and metal finishes for a modern look      ",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_591162C01_RGB_1000x.png?v=1649579853",
       "category": "Bracelets"
@@ -221,18 +202,14 @@
       "id": 25,
       "name": "Diamond Wedding Band",
       "price": 1499,
-      "material": "Platinum",
-      "gemstone": "Diamond",
       "description": "A stunning diamond wedding band that symbolizes the eternal bond of love.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_191165C01_RGB_1000x.png?v=1649576412",
       "category": "Rings"
     },
     {
       "id": 26,
-      "name": "Sapphire and Diamond Ring",
+      "name": "Sapphire Ring",
       "price": 1999,
-      "material": "Platinum",
-      "gemstone": "Sapphire, Diamond",
       "description": "A captivating ring featuring a brilliant sapphire surrounded by sparkling diamonds.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_188421C02_RGB_1000x.png?v=1604237589",
       "category": "Rings"
@@ -242,8 +219,6 @@
       "id": 27,
       "name": "Amethyst Cocktail Ring",
       "price": 499,
-      "material": "Yellow Gold",
-      "gemstone": "Amethyst",
       "description": "A statement-making amethyst cocktail ring that adds a bold touch to your outfit.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_192391C01_V2_RGB_1000x.png?v=1667227126",
       "category": "Rings"
@@ -251,10 +226,8 @@
 
     {
       "id": 28,
-      "name": "Citrine and Diamond Ring",
+      "name": "Citrine Ring",
       "price": 799,
-      "material": "White Gold",
-      "gemstone": "Citrine, Diamond",
       "description": "A radiant citrine and diamond ring that showcases natural beauty and elegance.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_196250CZ_RGB_1000x.jpg?v=1582993994",
       "category": "Rings"
@@ -262,10 +235,8 @@
 
     {
       "id": 29,
-      "name": "Diamond Halo Engagement Ring",
+      "name": "Halo Engagement Ring",
       "price": 2499,
-      "material": "Platinum",
-      "gemstone": "Diamond",
       "description": "A stunning diamond halo engagement ring that symbolizes everlasting love and commitment.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_198598C08_RGB_1000x.jpg?v=1583072856",
       "category": "Rings"
@@ -273,12 +244,10 @@
 
     {
       "id": 30,
-      "name": "Ruby and Diamond Cluster Ring",
+      "name": "Ruby Cluster Ring",
       "price": 1499,
-      "material": "Yellow Gold",
-      "gemstone": "Ruby, Diamond",
       "description": "An exquisite ruby and diamond cluster ring that exudes opulence and glamour.",
-      "image": "image-url",
+      "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_189259C03_V4_RGB_1000x.png?v=1610884903",
       "category": "Rings"
     },
 
@@ -286,8 +255,6 @@
       "id": 31,
       "name": "Diamond Solitaire Engagement Ring",
       "price": 2999,
-      "material": "Platinum",
-      "gemstone": "Diamond",
       "description": "A timeless diamond solitaire engagement ring that signifies love and commitment.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_198863C02_RGB_1000x.png?v=1632142149",
       "category": "Rings"
@@ -297,8 +264,6 @@
       "id": 32,
       "name": "Emerald and Diamond Ring",
       "price": 2499,
-      "material": "White Gold",
-      "gemstone": "Emerald, Diamond",
       "description": "An enchanting emerald and diamond ring that showcases the beauty of nature.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_191043CZ_RGB_1000x.jpg?v=1582991957",
       "category": "Rings"
