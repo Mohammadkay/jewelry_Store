@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
-import AllProducts from "./Components/ALLproduct/AllProducts";
+
+// import AllProducts from "./Components/ALLproduct/AllProducts";
+import AboutUs from "./Components/ALLproduct/AboutUs";
 function App() {
-  return <AllProducts />;
+  return (
+    <div>
+      {/* <AllProducts/> */}
+      <AboutUs/>
+    </div>
+  );
 }
 
 export default App;
