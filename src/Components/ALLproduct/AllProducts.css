@@ -1,20 +1,24 @@
 .cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+
   align-items: center;
   width: 90%;
   margin: auto;
   gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .cards img {
-  width: 100%;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
 }
 .cards section {
   width: 90%;
 }
 article {
-  width: 90%;
-
+  width: 300px;
+  cursor: pointer;
   background-color: var(--secondaryBackground);
 }
 .card-details {

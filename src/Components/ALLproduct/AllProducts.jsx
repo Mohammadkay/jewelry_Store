@@ -28,15 +28,26 @@ export default function AllProducts() {
               </div>
               <div>
                 <i
-                  class="fa-sharp fa-solid fa-heart fa-2xl icon"
+                  className="fa-sharp fa-solid fa-heart fa-2xl icon"
                   style={{ color: "#0000006e" }}
                 ></i>
               </div>
             </div>
             <div className="card-details">
-              <p style={{ fontWeight: "700", fontSize: "14px" }}>{ele.name}</p>
+              <p
+                style={{
+                  fontWeight: "700",
+                  fontSize: "14px",
+                  whiteSpace: "nowrap",
+                  overflow: "hidden"
+                }}
+              >
+                {ele.name}
+              </p>
 
-              <h1>{ele.price} JD</h1>
+              <h1 style={{ whiteSpace: "nowrap", overflow: "hidden" }}>
+                {ele.price} JD
+              </h1>
             </div>
           </article>
         );
