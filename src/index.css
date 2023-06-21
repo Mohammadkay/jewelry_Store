@@ -14,8 +14,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Cairo", sans-serif;
 }
 /* General setup to reset margins, padding, and box-sizing */
 * {

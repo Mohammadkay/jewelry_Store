@@ -19,10 +19,24 @@ export default function AllProducts() {
             <div>
               <img src={ele.image} alt={ele.name} />
             </div>
-            <div>
-              <h1 style={{ fontWeight: "700" }}>{ele.name}</h1>
-           
-              <h1 style={{ fontWeight: "700" }}>{ele.price} JD</h1>
+            <div className="icons">
+              <div>
+                <i
+                  className="fa-sharp fa-solid fa-eye fa-2xl icon"
+                  style={{ color: " #0000006e" }}
+                ></i>
+              </div>
+              <div>
+                <i
+                  class="fa-sharp fa-solid fa-heart fa-2xl icon"
+                  style={{ color: "#0000006e" }}
+                ></i>
+              </div>
+            </div>
+            <div className="card-details">
+              <p style={{ fontWeight: "700", fontSize: "14px" }}>{ele.name}</p>
+
+              <h1>{ele.price} JD</h1>
             </div>
           </article>
         );
