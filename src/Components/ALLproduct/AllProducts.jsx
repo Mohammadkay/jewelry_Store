@@ -15,13 +15,14 @@ export default function AllProducts() {
     <section className="cards">
       {products.map((ele) => {
         return (
-          <article key={ele.id} >
+          <article key={ele.id}>
             <div>
               <img src={ele.image} alt={ele.name} />
             </div>
             <div>
-              <h4>{ele.name}</h4>
-              <h4>{ele.price}</h4>
+              <h1 style={{ fontWeight: "700" }}>{ele.name}</h1>
+           
+              <h1 style={{ fontWeight: "700" }}>{ele.price} JD</h1>
             </div>
           </article>
         );

@@ -2,12 +2,26 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
-  width: 80%;
+  width: 90%;
   margin: auto;
+  gap: 10px;
 }
 .cards img {
   width: 100%;
 }
 .cards section {
-  width: 80%;
+  width: 90%;
+}
+article {
+  width: 90%;
+  background-color: var(--secondaryBackground);
+}
+article div:last-child {
+  border: solid 2px var(--backgroundColor);
+  display: flex;
+  font-size: 14px;
+  gap: 10px;
+  justify-content: space-between;
+
+  padding: 5px;
 }

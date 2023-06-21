@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Elegant Diamond Necklace",
-      "price": 1499,
+      "price": 358,
       "description": "A stunning diamond necklace that exudes elegance and sophistication.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
       "category": "Necklaces"
@@ -11,14 +11,14 @@
     {
       "id": 2,
       "name": "Ruby Pendant Necklace",
-      "price": 599,
+      "price": 200,
       "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
       "category": "Necklaces"
     },
     {
       "id": 3,
-      "name": "Tanzanite and Diamond Pendant",
+      "name": "Tanzanite  Pendant",
       "price": 500,
       "description": "An exquisite tanzanite and diamond pendant that captures attention with its vibrant colors.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_1024x1024.jpg?v=1435561424",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "name": "Silver Initial Pendant Necklace",
+      "name": "Silver Initial Pendant ",
       "price": 149,
 
       "description": "A personalized silver initial pendant necklace that adds a unique touch to your style.",
@@ -35,8 +35,8 @@
     },
     {
       "id": 5,
-      "name": "Diamond Cross Pendant Necklace",
-      "price": 899,
+      "name": " Cross Pendant Necklace",
+      "price": 237,
 
       "description": "A meaningful diamond cross pendant necklace that represents faith and devotion.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_369260C00_V3_RGB_1000x.png?v=1645047409",
@@ -53,8 +53,8 @@
     },
     {
       "id": 7,
-      "name": "Tanzanite Drop Pendant Necklace",
-      "price": 699,
+      "name": " Drop Pendant Necklace",
+      "price": 348,
 
       "description": "An elegant tanzanite drop pendant necklace that adds a touch of glamour to your neckline.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391229C01_RGB_1000x.png?v=1646287952",
@@ -62,7 +62,7 @@
     },
     {
       "id": 8,
-      "name": "Diamond Teardrop Pendant Necklace",
+      "name": " Teardrop Pendant Necklace",
       "price": 899,
       "description": "An exquisite diamond teardrop pendant necklace that sparkles with elegance.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391229C01_V4_RGB_1000x1000.png?v=1646287952",
@@ -72,15 +72,15 @@
     {
       "id": 9,
       "name": "Emerald Drop Earrings",
-      "price": 899,
+      "price": 468,
       "description": "Exquisite emerald drop earrings that enhance your natural beauty.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_292334C08_RGB_1000x1000.png?v=1677495632",
       "category": "Earrings"
     },
     {
       "id": 10,
-      "name": "Diamond Cluster Stud Earrings",
-      "price": 699,
+      "name": " Cluster Stud Earrings",
+      "price": 559,
       "description": "Stunning diamond cluster stud earrings that sparkle from every angle.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_290012C01_RGB_1000x1000.png?v=1635431820s",
       "category": "Earrings"
@@ -111,7 +111,7 @@
     },
     {
       "id": 14,
-      "name": "Blue Topaz Stud Earrings",
+      "name": " Topaz Stud Earrings",
       "price": 299,
       "description": "Gorgeous blue topaz stud earrings that capture the essence of tranquility.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_291445C01_RGB_1000x.png?v=1649579696",
@@ -136,15 +136,15 @@
     {
       "id": 17,
       "name": "Rose  Bracelet",
-      "price": 799,
+      "price": 320,
       "description": "A beautiful rose gold bracelet that adds a touch of warmth and elegance to your wrist.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/hc3xi2rknb2v4g8erwd3rftsd9u233m4_1000x.jpg?v=1678258708",
       "category": "Bracelets"
     },
     {
       "id": 18,
-      "name": "Diamond Tennis Bracelet",
-      "price": 2999,
+      "name": " Tennis Bracelet",
+      "price": 420,
       "description": "A timeless and luxurious diamond tennis bracelet that dazzles with every movement.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_592403C01_RGB_1000x.png?v=1667742718",
       "category": "Bracelets"
@@ -153,7 +153,6 @@
       "id": 19,
       "name": "Silver Cuff Bracelet",
       "price": 299,
-
       "description": "A sleek and modern silver cuff bracelet that adds a touch of sophistication.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_599539C00_RGB_1000x.png?v=1627829632",
       "category": "Bracelets"
@@ -176,7 +175,7 @@
     },
     {
       "id": 22,
-      "name": "Rose  Infinity Bracelet",
+      "name": "Rose Infinity Bracelet",
       "price": 349,
       "description": "A symbol of eternal love, this rose gold infinity bracelet makes a meaningful gift.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590702HV_RGB_1000x.jpg?v=1582549504",
@@ -200,8 +199,8 @@
     },
     {
       "id": 25,
-      "name": "Diamond Wedding Band",
-      "price": 1499,
+      "name": " Wedding Band",
+      "price": 350,
       "description": "A stunning diamond wedding band that symbolizes the eternal bond of love.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_191165C01_RGB_1000x.png?v=1649576412",
       "category": "Rings"
@@ -209,7 +208,7 @@
     {
       "id": 26,
       "name": "Sapphire Ring",
-      "price": 1999,
+      "price": 400,
       "description": "A captivating ring featuring a brilliant sapphire surrounded by sparkling diamonds.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_188421C02_RGB_1000x.png?v=1604237589",
       "category": "Rings"
@@ -236,7 +235,7 @@
     {
       "id": 29,
       "name": "Halo Engagement Ring",
-      "price": 2499,
+      "price": 540,
       "description": "A stunning diamond halo engagement ring that symbolizes everlasting love and commitment.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_198598C08_RGB_1000x.jpg?v=1583072856",
       "category": "Rings"
@@ -245,7 +244,7 @@
     {
       "id": 30,
       "name": "Ruby Cluster Ring",
-      "price": 1499,
+      "price": 530,
       "description": "An exquisite ruby and diamond cluster ring that exudes opulence and glamour.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_189259C03_V4_RGB_1000x.png?v=1610884903",
       "category": "Rings"
@@ -253,8 +252,8 @@
 
     {
       "id": 31,
-      "name": "Diamond Solitaire Engagement Ring",
-      "price": 2999,
+      "name": " Solitaire Engagement Ring",
+      "price": 370,
       "description": "A timeless diamond solitaire engagement ring that signifies love and commitment.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_198863C02_RGB_1000x.png?v=1632142149",
       "category": "Rings"
@@ -262,8 +261,8 @@
 
     {
       "id": 32,
-      "name": "Emerald and Diamond Ring",
-      "price": 2499,
+      "name": "Emerald  Ring",
+      "price": 199,
       "description": "An enchanting emerald and diamond ring that showcases the beauty of nature.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_191043CZ_RGB_1000x.jpg?v=1582991957",
       "category": "Rings"
