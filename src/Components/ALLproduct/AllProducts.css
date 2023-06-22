@@ -17,11 +17,6 @@
 .cards section {
   width: 90%;
 }
-article {
-  width: 300px;
-  cursor: pointer;
-  background-color: var(--secondaryBackground);
-}
 .card-details {
   border: solid 2px var(--backgroundColor);
   display: flex;
@@ -62,12 +57,12 @@ article {
 
   font-size: 18px;
 }
-article:hover .icons {
+.ProductsCards:hover .icons {
   opacity: 1;
   transition-duration: 1s;
 }
 
-article:hover img {
+.ProductsCards:hover img {
   opacity: 0.2;
   transition-duration: 1s;
 }
@@ -77,4 +72,14 @@ article:hover img {
   align-items: center;
   margin: auto;
   /* Adjust the duration as desired */
+}
+.ProductsCards:hover {
+  scale: 1.1;
+  transition: 1s;
+}
+.ProductsCards {
+  width: 300px;
+  cursor: pointer;
+  background-color: var(--secondaryBackground);
+  transition: 1s;
 }

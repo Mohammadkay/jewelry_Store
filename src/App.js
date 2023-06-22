@@ -1,15 +1,12 @@
-// import "./App.css";
+import ProductDetails from "./Components/ProductDetails/ProductDetails";
 import AllProducts from "./Components/ALLproduct/AllProducts";
-import Register from "./Components/Registration/Register";
-import Checkout from "./Components/Checkout/Checkout";
+
 function App() {
   return (
     <>
-      <Register />;{/* <Checkout /> */}
+      <ProductDetails />
     </>
   );
-
-  // <AllProducts />;
 }
 
 export default App;

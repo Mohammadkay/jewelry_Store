@@ -15,7 +15,7 @@ export default function AllProducts() {
     <section className="cards">
       {products.map((ele) => {
         return (
-          <article key={ele.id}>
+          <article key={ele.id} className="ProductsCards">
             <div>
               <img src={ele.image} alt={ele.name} />
             </div>

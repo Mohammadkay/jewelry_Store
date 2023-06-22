@@ -1,0 +1,19 @@
+.productImage img {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+}
+.productImage {
+  width: 50%;
+}
+.productInside {
+  display: flex;
+}
+.productDetails h1 {
+  font-size: 20px;
+}
+.productDetails {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
