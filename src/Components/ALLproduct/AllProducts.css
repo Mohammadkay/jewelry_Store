@@ -10,7 +10,8 @@
 }
 .cards img {
   width: 300px;
-  height: 350px;
+  height: 270px;
+  transition-duration: 1s;
   object-fit: cover;
 }
 .cards section {
@@ -45,8 +46,11 @@ article {
   width: 50%;
   justify-content: center;
   height: 30px;
-  border-right: 3px solid var(--backgroundColor);
+
   cursor: pointer;
+}
+.icon1 {
+  border-right: 3px solid var(--backgroundColor);
 }
 
 .icons div:hover .icon {
@@ -65,7 +69,7 @@ article:hover .icons {
 
 article:hover img {
   opacity: 0.2;
-  transition-duration: 0.8s;
+  transition-duration: 1s;
 }
 .icons {
   width: 95%;

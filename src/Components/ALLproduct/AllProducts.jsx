@@ -20,7 +20,7 @@ export default function AllProducts() {
               <img src={ele.image} alt={ele.name} />
             </div>
             <div className="icons">
-              <div>
+              <div className="icon1">
                 <i
                   className="fa-sharp fa-solid fa-eye fa-2xl icon"
                   style={{ color: " #0000006e" }}
