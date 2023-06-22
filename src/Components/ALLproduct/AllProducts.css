@@ -1,22 +1,27 @@
 .cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+
   align-items: center;
   width: 90%;
   margin: auto;
-  gap: 10px;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .cards img {
-  width: 100%;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
 }
 .cards section {
   width: 90%;
 }
 article {
-  width: 90%;
+  width: 300px;
+  cursor: pointer;
   background-color: var(--secondaryBackground);
 }
-article div:last-child {
+.card-details {
   border: solid 2px var(--backgroundColor);
   display: flex;
   font-size: 14px;
@@ -24,4 +29,48 @@ article div:last-child {
   justify-content: space-between;
 
   padding: 5px;
+}
+.icons {
+  width: 95%;
+  border: 1px solid var(--backgroundColor);
+  align-items: center;
+  margin: auto;
+  display: flex;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+.icons div {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+  height: 30px;
+  border-right: 3px solid var(--backgroundColor);
+  cursor: pointer;
+}
+
+.icons div:hover .icon {
+  color: var(--labelCollor) !important;
+  cursor: pointer;
+}
+.card-details h1:last-child {
+  color: var(--labelCollor);
+
+  font-size: 18px;
+}
+article:hover .icons {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+article:hover img {
+  opacity: 0.2;
+  transition-duration: 0.8s;
+}
+.icons {
+  width: 95%;
+  border: 1px solid var(--backgroundColor);
+  align-items: center;
+  margin: auto;
+  /* Adjust the duration as desired */
 }

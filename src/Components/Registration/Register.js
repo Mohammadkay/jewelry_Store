@@ -30,6 +30,7 @@ function Register() {
   // TO POST DATA on Array of Users in json server
   const PostRegistration = () => {
     axios
+
       .post("http://localhost:9000/Users", {
         email,
         password,
