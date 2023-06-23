@@ -1,16 +1,20 @@
-import "./Landing-page.css";
-import OurTeam from "./OurTeam"
-export default function OurTeamCountainer(){
-    return(<>
-            <h1 style={{textAlign:"center"}}>Our Team</h1>
-            <div  className="HoldOurTeam" style={{display:"flex" }}>
-<OurTeam name="HebaAlrrhman"/>
-<OurTeam name="ahmadabdelhaddi" />
-<OurTeam name="duhamjilani"/>
-<OurTeam name="Laith-Alzbaidy" />
-<OurTeam name="Mohammadkay"/> 
-<OurTeam name="OmarHilwah" />
-</div>
+import "./OurTeam.css";
+import OurTeam from "./OurTeam";
+//OurTeamCountainer component serves as a wrapper for displaying a collection of team members.
+export default function OurTeamCountainer() {
+  return (
+    <>
+      <h1 className="OruTeam" style={{ textAlign: "center" }}>
+        Our Team
+      </h1>
+      <div className="HoldOurTeam" style={{ display: "grid" }}>
+        <OurTeam name="HebaAlrrhman" />
+        <OurTeam name="ahmadabdelhaddi" />
+        <OurTeam name="duhamjilani" />
+        <OurTeam name="Laith-Alzbaidy" />
+        <OurTeam name="Mohammadkay" />
+        <OurTeam name="OmarHilwah" />
+      </div>
     </>
-    );
+  );
 }

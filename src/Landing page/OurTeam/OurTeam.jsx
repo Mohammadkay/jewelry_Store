@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./Landing-page.css";
+import "./OurTeam.css";
 
-//Create our team component & get data from Api github
+// this component represents a team member section that fetches data from the GitHub API based on
+// the provided username and displays the team member's avatar, login, role, and icons for GitHub and LinkedIn.
 function OurTeam(propos) {
   const [info, setInfo] = useState([]);
 
@@ -11,20 +12,19 @@ function OurTeam(propos) {
       .then((data) => setInfo(data));
   }, []);
   return (
-      <section className="our-team">
-      <div className="Container ">
-        <div className="card">
+    <section className="our-team">
+      <div className="Containeer ">
+        <div className="cardss">
           <img src={info.avatar_url} alt="pic" className="Image" />
-          <h5>{info.login}</h5>
+          <h4>{info.login}</h4>
           <p>Developer</p>
           <div className="icons ">
-            <i className="fa-brands fa-github"></i>
-            <i className="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-github fa-2xl"></i>
+            <i className="fa-brands fa-linkedin fa-2xl"></i>
           </div>
         </div>
       </div>
     </section>
-
   );
 }
 export default OurTeam;

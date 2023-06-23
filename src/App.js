@@ -1,13 +1,15 @@
-import "./App.css";
-import AllProducts from "./Components/ALLproduct/AllProducts";
+
+
 import OurTeamCountainer from "./Landing page/OurTeam/OurTeamCountainer";
+import TestimonialCountainer from "./Landing page/Testimonial/TestimonialCountainer"
+import IndividualIntervalsExample from "./Landing page/Sliderimg/Sliderimg";
 function App() {
   return (
     <>
-<OurTeamCountainer/>
-</>
-
-
+      <IndividualIntervalsExample />
+      <OurTeamCountainer />
+      <TestimonialCountainer />
+    </>
   );
 }
 
