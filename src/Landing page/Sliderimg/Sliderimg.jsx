@@ -7,7 +7,7 @@ function IndividualIntervalsExample() {
     <Carousel>
       <Carousel.Item interval={1000}>
         <img
-          style={{ height: "550px" }}
+          style={{ height: "600px" ,objectFit:"cover"}}
           className="d-block w-100"
           src="./image/j1.jpg"
           alt="First slide"
@@ -19,7 +19,7 @@ function IndividualIntervalsExample() {
       </Carousel.Item>
       <Carousel.Item interval={500}>
         <img
-          style={{ height: "550px" }}
+          style={{ height: "600px" ,objectFit:"cover"}}
           className="d-block w-100"
           src="./image/j2.jpg"
           alt="Second slide"
@@ -30,7 +30,7 @@ function IndividualIntervalsExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          style={{ height: "550px" }}
+          style={{ height: "600px" ,objectFit:"cover" }}
           className="d-block w-100"
           src="./image/j3.jpg"
           alt="Third slide"
