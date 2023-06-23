@@ -1,0 +1,34 @@
+/* :root {
+  --labelCollor: #9f7935;
+  --buttonColor: #f2e3cc;
+  --backgroundColor: #f7f7f7;
+  --secondaryBackground: #fff;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #9f7935;
+  width: 400px;
+  gap: 20px;
+  margin: 100px auto;
+  padding: 20px;
+
+} */
+
+ .Filed-lable {
+  display: flex;
+  flex-direction: column;
+}
+
+.Filed-lable label {
+  font-size: 20px;
+}
+
+.Filed-lable input {
+  height: 50px;
+}
+
+.btnSignUp {
+  font-size: 20px;
+}
