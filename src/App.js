@@ -4,7 +4,7 @@ import AllProducts from "./Components/ALLproduct/AllProducts";
 function App() {
   return (
     <>
-      <ProductDetails />
+   
     </>
   );
 }
