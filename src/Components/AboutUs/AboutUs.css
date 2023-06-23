@@ -12,21 +12,27 @@
     background-color: #faf3e9;
     display: flex;
    margin-top: 10px;
-    
-   
-
+   text-align: center;
 }
+  
 .Text{
     margin-left: 15px;
    
-  
+}
+h1{
+    text-align: center;
+   margin-top: 30px;
+   color:#5a5b60;
+  font-size: 50px;
+
 }
 .Text h1{
 font-size:50px;
-color:#5a5b60;
+color:#5a5b60;}
+
+ 
 
 
-}
 .Text2{
     font-size: medium;
     margin-top: 20px;
