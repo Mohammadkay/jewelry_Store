@@ -42,13 +42,13 @@ export default function AllProducts() {
               <div className="icons">
                 <div className="icon1">
                   <i
-                    className="fa-sharp fa-solid fa-eye fa-2xl icon"
+                    className="fa-sharp fa-solid fa-eye fa-xl icon"
                     style={{ color: " #0000006e" }}
                   ></i>
                 </div>
                 <div>
                   <i
-                    className="fa-sharp fa-solid fa-heart fa-2xl icon"
+                    className="fa-sharp fa-solid fa-heart fa-xl icon"
                     style={{ color: "#0000006e" }}
                   ></i>
                 </div>

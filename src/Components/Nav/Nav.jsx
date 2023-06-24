@@ -39,19 +39,21 @@ const Nav = ({}) => {
           <a className="navbar-brand" style={{ fontSize: "13px" }}>
             PHONE SHOPPING (+962) 7 9661 8504
           </a>
-          <button
-            style={{ backgroundColor: "white !important" }}
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarProfile"
-            aria-controls="navbarProfile"
-            aria-expanded="false"
-            aria-label="Toggle profile"
-            onClick={handleProfileToggle}
-          >
-            <i className="fas fa-user"></i>
-          </button>
+          <div style={{ width: "98%", textAlign: "-webkit-right" }}>
+            <button
+              style={{ backgroundColor: "white !important" }}
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarProfile"
+              aria-controls="navbarProfile"
+              aria-expanded="false"
+              aria-label="Toggle profile"
+              onClick={handleProfileToggle}
+            >
+              <i className="fas fa-user"></i>
+            </button>
+          </div>
           <div
             className="collapse navbar-collapse justify-content-end"
             id="navbarProfile"

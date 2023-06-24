@@ -185,18 +185,16 @@ function Register() {
     // const [errorUsername, setErrorUsername] = useState("");
 
     <>
-      <div className="containerr">
-        <h4>REGISTER</h4>
-        <div className="erorrs">
-          {errorUsername && <p>{errorUsername}</p>}
-          {errorEmail && <p>{errorEmail}</p>}
-          {errorPassword && <p>{errorPassword}</p>}
-        </div>
-        <div className="ContainerForm">
-          <form onSubmit={handleForm}>
-            <div className="Register Filed-lable">
-              <label htmlFor="userName">Username*</label>
-              <input
+      <div className="register-containerr">
+        <h4>Register</h4>
+        <br></br>
+        <h6>Customer Register</h6>
+
+        <div >
+          <form className="register-ContainerForm" onSubmit={handleForm}>
+            <div >
+              <label className="register-lable" htmlFor="userName">Username*</label>
+              <input className="register-input"
                 onChange={getUserName}
                 value={username}
                 type="text"
@@ -205,15 +203,15 @@ function Register() {
               {/* {errorUsername && <p>{errorUsername}</p>} */}
               {/* {errorUsername && <p>{errorUsername}</p>} */}
             </div>
-            <div className="Register Filed-lable">
-              <label htmlFor="Email">Email*</label>
-              <input onChange={getEmail} value={email} type="text" id="Email" />
+            <div>
+              <label  className="register-lable" htmlFor="Email">Email*</label>
+              <input  className="register-input"onChange={getEmail} value={email} type="text" id="Email" />
               {/* {errorEmail && <p>{errorEmail}</p>} */}
               {/* {errorUsername && <p>{errorUsername}</p>} */}
             </div>
-            <div className="Register Filed-lable">
-              <label htmlFor="Password">Password*</label>
-              <input
+            <div >
+              <label className="register-lable" htmlFor="Password">Password*</label>
+              <input className="register-input"
                 onChange={getPassword}
                 value={password}
                 type="password"
@@ -221,7 +219,12 @@ function Register() {
               />
               {/* {errorPassword && <p>{errorPassword}</p>} */}
             </div>
-            <button className="btnSignUp" type="submit">
+            <div className="register-erorrs">
+          {errorUsername && <p className="login-p">{errorUsername}</p>}
+          {errorEmail && <p className="login-p">{errorEmail}</p>}
+          {errorPassword && <p className="login-p">{errorPassword}</p>}
+        </div>
+            <button className="register-button" type="submit">
               Sign Up
             </button>
           </form>

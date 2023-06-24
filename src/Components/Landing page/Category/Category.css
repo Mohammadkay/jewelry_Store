@@ -4,7 +4,9 @@
     box-sizing: border-box;
   
 }
-
+.OurCollection {
+    text-align: center;
+}
 .CategoryContainer{
     display: flex;
     gap:5px;
@@ -18,10 +20,7 @@
     width: 20vw;
     background-color: rgb(255, 255, 255);
     transition: 0.5s;
-   text-align: center;
-  
-   
-    
+   text-align: center;  
 }
 
 .images img{
@@ -31,14 +30,15 @@
  
    
 }
-h1{
+.Category h1{
     text-align: center;
    margin-top: 30px;
-   color:#5a5b60;
+   color:black;
+   font-size: 30px;
   
 }
 hr.hr1{
-    width:100px;
+width:100px;
    height: 3px;
    background-color: #c8bfab;
    margin-left: 100px;
@@ -46,11 +46,12 @@ hr.hr1{
    z-index: 1;
 
 }
-h3{
+.Category h3{
     font-size: medium;
     text-align: center;
  margin-top: 10px;
-   color:#98907d; 
+   color:black; 
+   font-size: 10px;
   
 }
 .Category:hover{ 
@@ -60,9 +61,10 @@ h3{
   
 }
 .OurCollection{
-    margin-top: 35px;
+    padding: 35px;
     font-size: 30px;
     font-family:  "Nantes Light", serif;
+    
 
 }
 @media screen and (min-width: 200px) and (max-width: 912px) {
