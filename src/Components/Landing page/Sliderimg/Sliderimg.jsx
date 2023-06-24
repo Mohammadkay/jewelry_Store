@@ -1,5 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import React from "react";
+import "../../../../node_modules/bootstrap/dist/js/bootstrap.js";
+import "../../../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 // we use bootstrap react to create image slider
 function IndividualIntervalsExample() {

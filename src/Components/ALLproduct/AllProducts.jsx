@@ -3,7 +3,7 @@ import "./AllProducts.css";
 export default function AllProducts() {
   const [products, setProduct] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:9000/jewelryArray")
+    fetch("http://localhost:9000/jewelryArray%22")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
@@ -39,7 +39,7 @@ export default function AllProducts() {
                   fontWeight: "700",
                   fontSize: "14px",
                   whiteSpace: "nowrap",
-                  overflow: "hidden"
+                  overflow: "hidden",
                 }}
               >
                 {ele.name}

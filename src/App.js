@@ -1,25 +1,26 @@
-
-
-
-
-import "./App.css";
-// import AllProducts from "./Components/ALLproduct/AllProducts";
-import AboutUs from "./Components/AboutUs/AboutUs";
-import Categories from "./Components/Category/Categories";
+// import "./App.css";
+import AllProducts from "./Components/ALLproduct/AllProducts";
+import Register from "./Components/Registration/Register";
+import Checkout from "./Components/Checkout/Checkout";
+import { Routes, Route } from "react-router-dom";
+import Login from "./Components/login/Login";
+import Landing from "./Components/Landing page/Landing";
 import Nav from "./Components/NavBar/Nav";
-import OurTeamCountainer from "./Landing page/OurTeam/OurTeamCountainer";
-import IndividualIntervalsExample from "./Landing page/Sliderimg/Sliderimg";
-import TestimonialCountainer from "./Landing page/Testimonial/TestimonialCountainer"
+import Footer from "./Components/Footer/Footer";
+
 function App() {
-  return <div>
- <Nav/>
- <IndividualIntervalsExample/>
- <Categories/>
- <AboutUs/>
-<TestimonialCountainer/>
-  <OurTeamCountainer/>
-  </div>
-
+  return (
+    <>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/Register" element={<Register />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/AllProducts" element={<AllProducts />} />
+        <Route path="/Checkout" element={<Checkout />} />
+      </Routes>
+      <Footer />
+    </>
+  );
 }
-export default App
-
+export default App;

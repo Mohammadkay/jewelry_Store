@@ -4,145 +4,163 @@
       "id": 1,
       "name": "Elegant Diamond Necklace",
       "price": 358,
-      "description": "This elegant diamond necklace is a true showstopper. Crafted with meticulous attention to detail, it features a dazzling array of brilliant-cut diamonds set in a delicate, yet sturdy, platinum chain. The necklace gracefully drapes around the neck, catching the light from every angle and creating a mesmerizing sparkle. With its timeless design and undeniable sophistication, it's the perfect accessory for special occasions or adding a touch of glamour to any ensemble.",
+      "description": "A stunning diamond necklace that exudes elegance and sophistication.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 2,
       "name": "Ruby Pendant Necklace",
       "price": 200,
-      "description": "Make a bold statement with this striking ruby pendant necklace. The pendant showcases a vibrant, deep red ruby gemstone surrounded by a halo of sparkling diamonds, all set in lustrous 18-karat gold. The rich color of the ruby symbolizes passion and love, while the diamonds add a touch of elegance and brilliance. Whether worn as a standalone piece or layered with other necklaces, this pendant is sure to turn heads and become a cherished heirloom.",
+      "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 3,
       "name": "Tanzanite  Pendant",
       "price": 500,
-      "description": " This tanzanite and diamond pendant is a true masterpiece. The centerpiece of the pendant is a stunning oval-cut tanzanite gemstone, known for its mesmerizing blue-violet hue. The tanzanite is surrounded by a halo of sparkling diamonds, which further enhance its beauty and create a captivating contrast. The pendant hangs from a delicate white gold chain, allowing the gemstone to take center stage and radiate its irresistible allure.",
+      "description": "An exquisite tanzanite and diamond pendant that captures attention with its vibrant colors.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_1024x1024.jpg?v=1435561424",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 4,
       "name": "Silver Initial Pendant ",
       "price": 149,
-      "description": "Express your individuality with this charming silver initial pendant necklace. Crafted in sterling silver, the pendant features a beautifully designed letter charm that represents your chosen initial. The sleek and polished silver surface adds a touch of sophistication, while the adjustable chain allows for a customizable length. Whether worn as a standalone piece or layered with other necklaces, this pendant is a stylish and meaningful accessory that embodies your unique personality.",
+      "description": "A personalized silver initial pendant necklace that adds a unique touch to your style.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_399260C00_V2_RGB_1000x.png?v=1626262071",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 5,
       "name": " Cross Pendant Necklace",
       "price": 237,
-      "description": "Embrace your faith with this elegant cross pendant necklace. The pendant is crafted in sterling silver and features a sleek and contemporary design. The smooth lines and polished surface give it a modern aesthetic, while the symbolic cross shape represents spirituality and devotion. The pendant hangs from a dainty chain, allowing it to rest gracefully on the neckline. Whether worn as a daily reminder of faith or as a special accessory for religious occasions, this necklace adds a touch of grace and reverence to any ensemble.",
+      "description": "A meaningful diamond cross pendant necklace that represents faith and devotion.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_369260C00_V3_RGB_1000x.png?v=1645047409",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 6,
       "name": "Pearl Strand Necklace",
       "price": 499,
-      "description": "These classic pearl stud earrings are a timeless addition to any jewelry collection. Each earring features a lustrous freshwater pearl set on a 14-karat gold post. The pearls have a beautiful sheen and a smooth surface, exuding elegance and sophistication. The simple yet refined design makes these earrings versatile and suitable for both formal and casual occasions. Whether worn with a cocktail dress or a casual outfit, these pearl studs add a touch of understated glamour and elevate your style effortlessly.",
+      "description": "A classic pearl strand necklace that embodies timeless elegance.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391455C01_RGB_1000x1000.png?v=1646288130",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 7,
       "name": " Drop Pendant Necklace",
       "price": 348,
-      "description": "Indulge in luxury with this exquisite diamond tennis bracelet. The bracelet features a continuous line of round-cut diamonds set in a delicate 18-karat white gold setting. The diamonds are meticulously matched for exceptional brilliance and are secured with a secure clasp. The timeless design and the captivating sparkle of the diamonds make this bracelet a stunning statement piece that effortlessly enhances any outfit. Whether worn alone or stacked with other bracelets, this diamond tennis bracelet is sure to leave a lasting impression.",
+      "description": "An elegant tanzanite drop pendant necklace that adds a touch of glamour to your neckline.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391229C01_RGB_1000x.png?v=1646287952",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 8,
       "name": " Teardrop Pendant Necklace",
       "price": 899,
-      "description": "This sapphire and diamond ring is a true symbol of elegance and sophistication. The ring features a stunning oval-cut sapphire gemstone as the centerpiece, surrounded by a halo of sparkling diamonds. The sapphire's deep blue hue is complemented by the brilliance of the diamonds, creating a striking contrast. The band is crafted in 14-karat white gold and showcases intricate detailing, adding to its allure. Whether as an engagement ring, anniversary gift, or a special treat for yourself, this sapphire and diamond ring is a timeless piece that celebrates love and ",
+      "description": "An exquisite diamond teardrop pendant necklace that sparkles with elegance.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391229C01_V4_RGB_1000x1000.png?v=1646287952",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 9,
       "name": "Emerald Drop Earrings",
       "price": 468,
-      "description": "These silver hoop earrings are a versatile and stylish accessory for any occasion. Crafted in sterling silver, the earrings feature a classic hoop design with a sleek and polished surface. The medium-sized hoops are lightweight and comfortable to wear, making them suitable for daily wear or for adding a touch of sophistication to your evening ensemble. Their timeless appeal and effortless elegance make them a must-have staple in every jewelry collection.",
+      "description": "Exquisite emerald drop earrings that enhance your natural beauty.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_292334C08_RGB_1000x1000.png?v=1677495632",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 10,
       "name": " Cluster Stud Earrings",
       "price": 559,
-      "description": "Adorn yourself with the captivating beauty of this emerald pendant necklace. The pendant showcases a vibrant emerald gemstone set in a delicate 18-karat gold bezel. The rich green color of the emerald is accentuated by its faceted cut, which allows light to dance off its surface. The pendant hangs from a dainty chain, creating an elegant and feminine look. Whether worn as a birthstone necklace or as a statement piece, this emerald pendant necklace exudes sophistication and glamour.",
+      "description": "Stunning diamond cluster stud earrings that sparkle from every angle.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_290012C01_RGB_1000x1000.png?v=1635431820s",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 11,
       "name": " Hoop Earrings",
       "price": 199,
-      "description": "Elevate your wrist with the timeless elegance of this diamond tennis bracelet. Set in 14-karat white gold, this bracelet features a row of brilliant-cut diamonds that sparkle with every movement. The diamonds are securely held in place by a prong setting, allowing maximum light to enter and enhance their brilliance. With its classic design and luxurious appeal, this diamond tennis bracelet is a stunning accessory for special occasions or as a symbol of everlasting love.",
+      "description": "Classic and versatile gold hoop earrings that complement any style.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_268820C01_RGB_1000x1000.png?v=1681296011https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_268820C01_RGB_1000x1000.png?v=1681296011",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 12,
       "name": "Aquamarine Stud Earrings",
       "price": 449,
-      "description": " Embrace timeless elegance with these pearl stud earrings. Each earring features a lustrous freshwater pearl set on a sterling silver post. The pearls exhibit a beautiful natural luster and a creamy white color that complements any outfit. Whether worn for a formal event or to add a touch of sophistication to your everyday look, these pearl stud earrings are a classic and versatile choice. They make a thoughtful gift for birthdays, anniversaries, or any special occasion.      ",
+      "description": "Delicate aquamarine stud earrings that evoke the calming beauty of the sea.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_299239C01_RGB_1000x1000.png?v=1604236952",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 13,
       "name": "Rose  Drop Earrings",
       "price": 349,
-      "description": "Add a pop of vibrant color to your neckline with this exquisite sapphire pendant necklace. The pendant features a pear-shaped sapphire gemstone surrounded by a halo of sparkling diamonds. The sapphire displays a deep blue hue that is both captivating and enchanting. Suspended from a delicate 18-karat white gold chain, this necklace is perfect for special occasions or as a statement piece to elevate your everyday attire.",
+      "description": "Elegant rose gold drop earrings that sway with grace and beauty.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/files/WEB_262686C01_RGB_1000x1000.png?v=1685435796",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 14,
       "name": " Topaz Stud Earrings",
       "price": 299,
-      "description": "Embrace feminine charm with this stunning rose gold bangle. Crafted from 14-karat rose gold, this bangle features a sleek and modern design that effortlessly complements any style. Its smooth surface and warm hue create a subtle and elegant look that can be worn alone or stacked with other bracelets for a personalized touch. With its versatility and timeless appeal, this rose gold bangle is a must-have addition to your jewelry collection.",
+      "description": "Gorgeous blue topaz stud earrings that capture the essence of tranquility.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_291445C01_RGB_1000x.png?v=1649579696",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 15,
       "name": "Opal Drop Earrings",
       "price": 399,
-      "description": " Enhance your elegance with these exquisite diamond stud earrings. Each earring features a brilliant round-cut diamond set in a classic four-prong setting. The diamonds are of exceptional quality, displaying incredible sparkle and fire. Crafted in 18-karat white gold, these earrings exude timeless beauty and sophistication. Perfect for any occasion, these diamond stud earrings are a must-have accessory for every jewelry collection.",
+      "description": "Captivating opal drop earrings that showcase a spectrum of mesmerizing colors.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_290744CZ_RGB_1000x.jpg?v=1585598886",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 16,
       "name": "Diamond Huggie Earrings",
       "price": 799,
-      "description": "Elevate your style with this elegant pearl bracelet. It features lustrous freshwater pearls strung together with a delicate sterling silver chain. The bracelet is designed to showcase the natural beauty of pearls, creating a timeless and sophisticated look. Whether worn alone or layered with other bracelets, this pearl bracelet adds a touch of grace and refinement to any outfit",
+      "description": "Chic and versatile diamond huggie earrings that add a touch of sparkle to any look.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_280591CZ_RGB_1000x.jpg?v=1582104754",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 17,
       "name": "Rose  Bracelet",
       "price": 320,
-      "description": "Make a bold statement with this stunning sapphire pendant necklace. The pendant showcases a vibrant blue sapphire gemstone, surrounded by a halo of sparkling diamonds. The deep blue color of the sapphire exudes elegance and sophistication, while the diamonds add a touch of brilliance. Crafted in 14-karat white gold, this necklace is a perfect accessory for special occasions or for adding a pop of color to your everyday look.",
+      "description": "A beautiful rose gold bracelet that adds a touch of warmth and elegance to your wrist.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/hc3xi2rknb2v4g8erwd3rftsd9u233m4_1000x.jpg?v=1678258708",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 18,
       "name": " Tennis Bracelet",
       "price": 420,
-      "description": "Create your own unique style with these stackable rings in rose gold. The set includes three rings, each featuring a different design: one with shimmering diamonds, one with a textured pattern, and one with a smooth polished finish. These rings can be worn individually for a delicate look or stacked together for a bolder statement. Crafted in 14-karat rose gold, these rings add a touch of femininity and versatility to your jewelry collection.",
+      "description": "A timeless and luxurious diamond tennis bracelet that dazzles with every movement.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_592403C01_RGB_1000x.png?v=1667742718",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 19,
@@ -150,7 +168,8 @@
       "price": 299,
       "description": "A sleek and modern silver cuff bracelet that adds a touch of sophistication.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_599539C00_RGB_1000x.png?v=1627829632",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 20,
@@ -158,7 +177,8 @@
       "price": 199,
       "description": "A delightful silver charm bracelet that allows you to showcase your personal style.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_592398C01_RGB_1000x.png?v=1667229992",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 21,
@@ -166,7 +186,8 @@
       "price": 599,
       "description": "A sleek and stylish gold bangle bracelet that adds a touch of sophistication to any outfit.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590524CZ_RGB_1800x1800.jpg?v=1582483360",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 22,
@@ -174,7 +195,8 @@
       "price": 349,
       "description": "A symbol of eternal love, this rose gold infinity bracelet makes a meaningful gift.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590702HV_RGB_1000x.jpg?v=1582549504",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 23,
@@ -182,7 +204,8 @@
       "price": 599,
       "description": "A stylish gold link bracelet that adds a touch of elegance to your wrist.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590719_RGB_1000x.jpg?v=1585587635",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 24,
@@ -190,7 +213,8 @@
       "price": 599,
       "description": "Fall in love many times over with the Sparkling Endless Hearts Chain Bracelet. This tennis bracelet-inspired design features six heart-shaped clear cubic zirconia set in alternating directions. A small heart-shaped stone dangles beside the lobster clasp to add extra sparkle. Wear it on its own or stack bracelets of different colours and metal finishes for a modern look      ",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_591162C01_RGB_1000x.png?v=1649579853",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 25,
@@ -198,7 +222,8 @@
       "price": 350,
       "description": "A stunning diamond wedding band that symbolizes the eternal bond of love.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_191165C01_RGB_1000x.png?v=1649576412",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 26,
@@ -206,7 +231,8 @@
       "price": 400,
       "description": "A captivating ring featuring a brilliant sapphire surrounded by sparkling diamonds.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_188421C02_RGB_1000x.png?v=1604237589",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 27,
@@ -214,7 +240,8 @@
       "price": 499,
       "description": "A statement-making amethyst cocktail ring that adds a bold touch to your outfit.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_192391C01_V2_RGB_1000x.png?v=1667227126",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 28,
@@ -222,7 +249,8 @@
       "price": 799,
       "description": "A radiant citrine and diamond ring that showcases natural beauty and elegance.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_196250CZ_RGB_1000x.jpg?v=1582993994",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 29,
@@ -230,7 +258,8 @@
       "price": 540,
       "description": "A stunning diamond halo engagement ring that symbolizes everlasting love and commitment.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_198598C08_RGB_1000x.jpg?v=1583072856",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 30,
@@ -238,7 +267,8 @@
       "price": 530,
       "description": "An exquisite ruby and diamond cluster ring that exudes opulence and glamour.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_189259C03_V4_RGB_1000x.png?v=1610884903",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 31,
@@ -246,7 +276,8 @@
       "price": 370,
       "description": "A timeless diamond solitaire engagement ring that signifies love and commitment.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_198863C02_RGB_1000x.png?v=1632142149",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 32,
@@ -254,22 +285,298 @@
       "price": 199,
       "description": "An enchanting emerald and diamond ring that showcases the beauty of nature.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_191043CZ_RGB_1000x.jpg?v=1582991957",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     }
   ],
   "Users": [
     {
-      "id": "1",
-      "email": "kayyali132@gmail.com",
-      "password": "kayyali1",
-      "username": "Mohammad kayyali",
+      "email": "laythalzbaidy@gmail.com",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "123123Qq123",
+      "username": "layth",
       "Image": "./",
-      "IsLogin": false,
-      "phone": "0776202831",
-      "Address": "Amman",
+      "IsLogin": true,
+      "Address": "",
       "History": [],
       "Cart": [],
-      "Favorite ": []
+      "Favorite": [],
+      "id": 5
+    },
+    {
+      "email": "ahmad@gmail.com",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "123123123Qq123",
+      "username": "ahmad",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 6
+    },
+    {
+      "email": "amer@gmail.com",
+      "phone": "0787014262",
+      "country": "",
+      "city": "amman",
+      "address": "asdas",
+      "firstname": "layth",
+      "lastname": "alzbaidy",
+      "password": "123123123Qq123",
+      "username": "amer",
+      "Image": "./",
+      "IsLogin": true,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 7
+    },
+    {
+      "email": "layth000000000000000000@gmail.com",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "Qq1231231231q213",
+      "username": "layth",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 8
+    },
+    {
+      "email": "amedddr@gmail.com",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "ASDQWD123DASDASDQWD12DQDAS1sa",
+      "username": "asdasdasdasdasdqweqweqweqwe",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 9
+    },
+    {
+      "email": "1932sasa562@std.hu.edu.jo",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "KAYYALI-200121sadsa",
+      "username": "Mohammadsa",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 10
+    },
+    {
+      "email": "dasdsasdas@dassda",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "sadsdasdaASASDSAKAY",
+      "username": "dassad",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 11
+    },
+    {
+      "email": "SADSDAAS@DWQAS",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "KAYYALI12as-2",
+      "username": "DSAASD",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 12
+    },
+    {
+      "email": "sadads@dsaasd",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "kayyali-20012ASA",
+      "username": "sadsadADSsad",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 13
+    },
+    {
+      "email": "ASDSDSA@DWASSD",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "kASDHISADSA-213",
+      "username": "SASADSA",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 14
+    },
+    {
+      "email": "KAYYALI-20012@DSADAS",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "113920900qQ123ASWD1sdD",
+      "username": "KayyaliSAD",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 15
+    },
+    {
+      "email": "Kayyali@dassad",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "Qq1123456789Qq1",
+      "username": "Kayyalisda",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 16
+    },
+    {
+      "email": "1932562@sastd.hu.edu.jo",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "Kayyali12345",
+      "username": "Mohammad21",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 17
+    },
+    {
+      "email": "kayyali-2001@jsdaads",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "Kayyali-12",
+      "username": "Kayyali121",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 18
+    },
+    {
+      "email": "KAYYALI-2001@SDASD",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "Kayyali-2001",
+      "username": "SASDASDASDA",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 19
+    },
+    {
+      "email": "KAYYALI@wdsadsa",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "kayyali12345KSA",
+      "username": "Kayyali1212",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 20
     }
   ]
 }

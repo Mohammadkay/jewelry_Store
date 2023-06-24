@@ -3,6 +3,7 @@ import './Category.css'
 function Category(props) {
   return (
     <div>
+     
          <div className='Category'> 
         <div className='images'>
         <img src={props.image} alt='pic'/>
