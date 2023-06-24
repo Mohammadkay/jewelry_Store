@@ -292,21 +292,41 @@
   "Users": [
     {
       "email": "laythalzbaidy@gmail.com",
-      "phone": "",
-      "country": "",
-      "city": "",
-      "address": "",
-      "firstname": "",
-      "lastname": "",
+      "phone": "56165156",
+      "country": "Irbid",
+      "city": "sdadsa",
+      "address": "Amman",
+      "firstname": "asdsadsasda",
+      "lastname": "adssdasadsad",
       "password": "123123Qq123",
       "username": "layth",
       "Image": "./",
       "IsLogin": true,
       "Address": "",
-      "History": [],
+      "History": [
+        {
+          "id": 1,
+          "name": "Elegant Diamond Necklace",
+          "price": 2506,
+          "description": "A stunning diamond necklace that exudes elegance and sophistication.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
+          "category": "Necklaces",
+          "quantity": 7
+        },
+        {
+          "id": 18,
+          "name": " Tennis Bracelet",
+          "price": 1260,
+          "description": "A timeless and luxurious diamond tennis bracelet that dazzles with every movement.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_592403C01_RGB_1000x.png?v=1667742718",
+          "category": "Bracelets",
+          "quantity": 3
+        }
+      ],
       "Cart": [],
       "Favorite": [],
-      "id": 5
+      "id": 5,
+      "Date": "6/25/2023"
     },
     {
       "email": "kayyali@gmail.com21",
@@ -322,7 +342,26 @@
       "IsLogin": true,
       "Address": "",
       "History": [],
-      "Cart": [],
+      "Cart": [
+        {
+          "id": 2,
+          "name": "Ruby Pendant Necklace",
+          "price": 600,
+          "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
+          "category": "Necklaces",
+          "quantity": 3
+        },
+        {
+          "id": 4,
+          "name": "Silver Initial Pendant ",
+          "price": 149,
+          "description": "A personalized silver initial pendant necklace that adds a unique touch to your style.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_399260C00_V2_RGB_1000x.png?v=1626262071",
+          "category": "Necklaces",
+          "quantity": 1
+        }
+      ],
       "Favorite": [],
       "id": 7
     },
@@ -409,6 +448,24 @@
       "Favorite": [],
       "id": 9,
       "Date": "6/25/2023"
+    },
+    {
+      "email": "kayyali@gmail.com2",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "Kayyali123",
+      "username": "Mohammad1",
+      "Image": "./",
+      "IsLogin": false,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 10
     }
   ]
 }

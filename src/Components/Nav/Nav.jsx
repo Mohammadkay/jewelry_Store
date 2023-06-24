@@ -26,7 +26,7 @@ const Nav = ({}) => {
     }
   }
   function getUserIdCart() {
-    if (userId !== "") {
+    if (userId >= 1) {
       return `${userId}/Cart`;
     } else {
       return "/Login";
@@ -58,22 +58,36 @@ const Nav = ({}) => {
             className="collapse navbar-collapse justify-content-end"
             id="navbarProfile"
           >
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link" to="/Login">
-                  LOGIN
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/Register">
-                  CREATE ACCOUNT
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to={`${userId}/History`}>
-                  History
-                </Link>
-              </li>
+            {console.log(isNaN(userId))}
+            <ul className="navbar-nav nav-up-line">
+              {userId >= 1 ? (
+                <>
+                  {" "}
+                  <li className="nav-item">
+                    <Link className="nav-link" to={`${userId}/History`}>
+                      History
+                    </Link>
+                  </li>
+                  <Link className="nav-link" to="/Login">
+                    Logout
+                  </Link>
+                </>
+              ) : (
+                <>
+                  {" "}
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/Login">
+                      LOGIN
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/Register">
+                      CREATE ACCOUNT
+                    </Link>
+                  </li>
+                </>
+              )}
+
               <div
                 className="icons-profile"
                 style={{

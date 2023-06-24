@@ -4,7 +4,7 @@ import "./AboutUs.css";
 function AboutUs() {
   return (
     <div>
-      <div className="Center">
+      <div className="Center" id="About">
         <img src="./image/Pic.jpg" alt="" />
         <div className="Text">
           <h1 className="JewelleryStore">Jewellery Store </h1>
@@ -19,7 +19,6 @@ function AboutUs() {
               We will probably enable the autonomous gem dealer to remain in
               front of their
             </p>
-
             <p> </p>
           </div>
         </div>

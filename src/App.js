@@ -10,9 +10,10 @@ import Nav from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
 import Cart from "./Components/Cart/Cart";
 import History from "./Components/History/History";
+import "./App.css";
 function App() {
   return (
-    <>
+    <div className="ALLtHING">
       <Nav />
       <Routes>
         <Route path="/" element={<Landing />} />
@@ -30,7 +31,7 @@ function App() {
         />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 export default App;

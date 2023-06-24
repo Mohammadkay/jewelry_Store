@@ -65,7 +65,6 @@ function Cart() {
       <table className="table table-light">
         <thead>
           <tr>
-            <th scope="col">ID</th>
             <th scope="col">Image</th>
             <th scope="col">Title</th>
             <th scope="col">Qty</th>
@@ -77,7 +76,6 @@ function Cart() {
         <tbody>
           {carts.map((elm) => (
             <tr key={elm.id}>
-              <th scope="row">{elm.id}</th>
               <th scope="row">
                 <img width="100px" src={elm.image} alt={elm.name} />
               </th>

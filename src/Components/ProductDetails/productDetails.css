@@ -68,6 +68,7 @@
 .quantity {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 .quantity button {
   width: 36px;

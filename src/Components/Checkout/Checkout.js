@@ -109,81 +109,81 @@ function Checkout() {
 
   return (
     <>
-      <div className="ContainerCheckOut">
-        <form onSubmit={HandleForms}>
-          <h3 className="Title">Jewelry-Themeforshop</h3>
-          <div className="firstNameLast">
-            <input
-              type="text"
-              placeholder="First name"
-              name="firstname"
-              value={formData.firstname}
-              onChange={handleChange}
-              // required
-            />
-            <input
-              type="text"
-              placeholder="Last name"
-              name="lastname"
-              value={formData.lastname}
-              onChange={handleChange}
-              // required
-            />
-            <input
-              className="Number-Arow"
-              type="number"
-              placeholder="phone"
-              name="phone"
-              // value={formData.phone}
-              onChange={handleChange}
-              // required
-            />
-            <div className="Address">
-              <input
-                type="text"
-                placeholder="City"
-                name="city"
-                value={formData.city}
-                onChange={handleChange}
-                // required
-              />
-            </div>
-            <label htmlFor="">Shipping address</label>
-            <input
-              type="text"
-              placeholder="Address (St ,apartment , suite ,etc)"
-              name="address"
-              value={formData.address}
-              onChange={handleChange}
-              // required
-            />
-            <div className="CheckOut labelField">
-              <select
-                name="country"
-                value={formData.country}
-                onChange={handleChange}
-                // required
-              >
-                <option value="">Select your city</option>
-                <option value="Amman">Amman (the capital)</option>
-                <option value="Irbid">Irbid</option>
-                <option value="Zarqa">Zarqa</option>
-                <option value="Mafraq">Mafraq</option>
-                <option value="Ajloun">Ajloun</option>
-                <option value="Jerash">Jerash</option>
-                <option value="Madaba">Madaba</option>
-                <option value="Balqa">Balqa</option>
-                <option value="Karak">Karak</option>
-                <option value="Tafileh">Tafileh</option>
-                <option value="Maan">Maan</option>
-                <option value="Aqaba">Aqaba</option>
-              </select>
-            </div>
-          </div>
-          <input type="submit" className="btnCheckOut" />
-        </form>
-      </div>
-    </>
+    <div className="ContainerCheckOut">
+      <form onSubmit={HandleForms}>
+        <h3 className="Title">Jewelry-Themeforshop</h3>
+
+        <input
+          className="Number-Arow"
+          type="number"
+          placeholder="phone"
+          name="phone"
+          // value={formData.phone}
+          onChange={handleChange}
+          // required
+        />
+        <div className="CheckOut labelField">
+          <label htmlFor="">Shipping address</label>
+          <select
+            name="country"
+            value={formData.country}
+            onChange={handleChange}
+            // required
+          >
+            <option value="">Select your city</option>
+            <option value="Amman">Amman (the capital)</option>
+            <option value="Irbid">Irbid</option>
+            <option value="Zarqa">Zarqa</option>
+            <option value="Mafraq">Mafraq</option>
+            <option value="Ajloun">Ajloun</option>
+            <option value="Jerash">Jerash</option>
+            <option value="Madaba">Madaba</option>
+            <option value="Balqa">Balqa</option>
+            <option value="Karak">Karak</option>
+            <option value="Tafileh">Tafileh</option>
+            <option value="Maan">Maan</option>
+            <option value="Aqaba">Aqaba</option>
+          </select>
+        </div>
+        <input
+          type="text"
+          placeholder="City"
+          name="city"
+          value={formData.city}
+          onChange={handleChange}
+          // required
+        />
+        <div className="firstNameLast">
+          <input
+            type="text"
+            placeholder="First name"
+            name="firstname"
+            value={formData.firstname}
+            onChange={handleChange}
+            // required
+          />
+          <input
+            type="text"
+            placeholder="Last name"
+            name="lastname"
+            value={formData.lastname}
+            onChange={handleChange}
+            // required
+          />
+        </div>
+        <input
+          type="text"
+          placeholder="Address (St ,apartment , suite ,etc)"
+          name="address"
+          value={formData.address}
+          onChange={handleChange}
+          // required
+        />
+
+        <input type="submit" value="Submit" className="submitchk"/>
+      </form>
+    </div>
+  </>
   );
 }
 
