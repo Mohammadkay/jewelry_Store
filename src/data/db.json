@@ -7,8 +7,7 @@
       "description": "A stunning diamond necklace that exudes elegance and sophistication.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
       "category": "Necklaces",
-      "quantity": 1,
-      "Date": ""
+      "quantity": 1
     },
     {
       "id": 2,
@@ -314,34 +313,15 @@
       "phone": "056565688979",
       "country": "Irbid",
       "city": "sdadsa",
-      "address": "sadsdasad",
-      "firstname": "asdsadsasda",
+      "address": "sdasad",
+      "firstname": "sdadsa",
       "lastname": "adssdasadsad",
       "password": "Kauuasdasl21",
       "username": "Mohammad21",
       "Image": "./",
       "IsLogin": true,
       "Address": "",
-      "History": [
-        {
-          "id": 2,
-          "name": "Ruby Pendant Necklace",
-          "price": 600,
-          "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
-          "category": "Necklaces",
-          "quantity": 3
-        },
-        {
-          "id": 1,
-          "name": "Elegant Diamond Necklace",
-          "price": 1074,
-          "description": "A stunning diamond necklace that exudes elegance and sophistication.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
-          "category": "Necklaces",
-          "quantity": 3
-        }
-      ],
+      "History": [],
       "Cart": [],
       "Favorite": [],
       "id": 7
@@ -360,37 +340,65 @@
       "IsLogin": true,
       "Address": "",
       "History": [],
-      "Cart": [
+      "Cart": [],
+      "Favorite": [],
+      "id": 8
+    },
+    {
+      "email": "Kayysad@gmail.com",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "Kayyali12",
+      "username": "Kayyali12w",
+      "Image": "./",
+      "IsLogin": true,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 9
+    },
+    {
+      "email": "kayyali@gmail.com2",
+      "phone": "056565688979",
+      "country": "",
+      "city": "sdadsa",
+      "address": "SA",
+      "firstname": "sdadsa",
+      "lastname": "sadsda",
+      "password": "Kayyali-2001",
+      "username": "Kayyali122",
+      "Image": "./",
+      "IsLogin": true,
+      "Address": "",
+      "History": [
         {
-          "id": 1,
-          "name": "Elegant Diamond Necklace",
-          "price": 3938,
-          "description": "A stunning diamond necklace that exudes elegance and sophistication.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
+          "id": 2,
+          "name": "Ruby Pendant Necklace",
+          "price": 600,
+          "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
           "category": "Necklaces",
-          "quantity": 11
+          "quantity": 3
         },
         {
-          "id": 6,
-          "name": "Pearl Strand Necklace",
-          "price": 499,
-          "description": "A classic pearl strand necklace that embodies timeless elegance.",
-          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391455C01_RGB_1000x1000.png?v=1646288130",
+          "id": 3,
+          "name": "Tanzanite  Pendant",
+          "price": 500,
+          "description": "An exquisite tanzanite and diamond pendant that captures attention with its vibrant colors.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_1024x1024.jpg?v=1435561424",
           "category": "Necklaces",
-          "quantity": 1
-        },
-        {
-          "id": 22,
-          "name": "Rose Infinity Bracelet",
-          "price": 349,
-          "description": "A symbol of eternal love, this rose gold infinity bracelet makes a meaningful gift.",
-          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590702HV_RGB_1000x.jpg?v=1582549504",
-          "category": "Bracelets",
           "quantity": 1
         }
       ],
+      "Cart": [],
       "Favorite": [],
-      "id": 8
+      "id": 10,
+      "Date": "6/24/2023"
     }
   ]
 }

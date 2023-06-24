@@ -67,6 +67,11 @@ const Nav = ({}) => {
                   CREATE ACCOUNT
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to={`${userId}/History`}>
+                  History
+                </Link>
+              </li>
               <div
                 className="icons-profile"
                 style={{
@@ -104,10 +109,10 @@ const Nav = ({}) => {
             <img
               className="col-sm"
               src="./image/loogggo3.png"
-              width="50px"
               alt=""
+              width="50px"
             />
-            <img src="./image/Untitle22d-1.png" width="130px" alt="" />
+            <img src="./image/Untitle22d-1.png" alt="" width="130px" />
           </a>
           <button
             className="navbar-toggler"
