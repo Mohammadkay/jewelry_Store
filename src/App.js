@@ -5,13 +5,13 @@ import Checkout from "./Components/Checkout/Checkout";
 import { Routes, Route } from "react-router-dom";
 import Login from "./Components/login/Login";
 import Landing from "./Components/Landing page/Landing";
-import Nav from "./Components/NavBar/Nav";
+import Navbar from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <>
-      <Nav />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/Register" element={<Register />} />

@@ -8,7 +8,7 @@ function AboutUs() {
       <div className="Center">
         <img src={Pic} alt="" />
         <div className="Text">
-          <h1>Jewellery Store </h1>
+          <h1 className="JewelleryStore">Jewellery Store </h1>
           <div className="Text2">
             <p>
               Jewellery Store is one of the chief precious stone adornments
