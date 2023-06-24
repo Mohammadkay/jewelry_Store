@@ -9,7 +9,7 @@ import Landing from "./Components/Landing page/Landing";
 import Nav from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
 import Cart from "./Components/Cart/Cart";
-import History from "./Components/History/History";
+
 function App() {
   return (
     <>
