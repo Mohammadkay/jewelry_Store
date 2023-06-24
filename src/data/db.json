@@ -6,7 +6,8 @@
       "price": 358,
       "description": "A stunning diamond necklace that exudes elegance and sophistication.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "price": 200,
       "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "price": 500,
       "description": "An exquisite tanzanite and diamond pendant that captures attention with its vibrant colors.",
       "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_1024x1024.jpg?v=1435561424",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "price": 149,
       "description": "A personalized silver initial pendant necklace that adds a unique touch to your style.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_399260C00_V2_RGB_1000x.png?v=1626262071",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "price": 237,
       "description": "A meaningful diamond cross pendant necklace that represents faith and devotion.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_369260C00_V3_RGB_1000x.png?v=1645047409",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "price": 499,
       "description": "A classic pearl strand necklace that embodies timeless elegance.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391455C01_RGB_1000x1000.png?v=1646288130",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "price": 348,
       "description": "An elegant tanzanite drop pendant necklace that adds a touch of glamour to your neckline.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391229C01_RGB_1000x.png?v=1646287952",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "price": 899,
       "description": "An exquisite diamond teardrop pendant necklace that sparkles with elegance.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391229C01_V4_RGB_1000x1000.png?v=1646287952",
-      "category": "Necklaces"
+      "category": "Necklaces",
+      "quantity": 1
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "price": 468,
       "description": "Exquisite emerald drop earrings that enhance your natural beauty.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_292334C08_RGB_1000x1000.png?v=1677495632",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "price": 559,
       "description": "Stunning diamond cluster stud earrings that sparkle from every angle.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_290012C01_RGB_1000x1000.png?v=1635431820s",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 11,
@@ -86,7 +96,8 @@
       "price": 199,
       "description": "Classic and versatile gold hoop earrings that complement any style.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_268820C01_RGB_1000x1000.png?v=1681296011https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_268820C01_RGB_1000x1000.png?v=1681296011",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 12,
@@ -94,7 +105,8 @@
       "price": 449,
       "description": "Delicate aquamarine stud earrings that evoke the calming beauty of the sea.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_299239C01_RGB_1000x1000.png?v=1604236952",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 13,
@@ -102,7 +114,8 @@
       "price": 349,
       "description": "Elegant rose gold drop earrings that sway with grace and beauty.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/files/WEB_262686C01_RGB_1000x1000.png?v=1685435796",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 14,
@@ -110,7 +123,8 @@
       "price": 299,
       "description": "Gorgeous blue topaz stud earrings that capture the essence of tranquility.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_291445C01_RGB_1000x.png?v=1649579696",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 15,
@@ -118,7 +132,8 @@
       "price": 399,
       "description": "Captivating opal drop earrings that showcase a spectrum of mesmerizing colors.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_290744CZ_RGB_1000x.jpg?v=1585598886",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 16,
@@ -126,7 +141,8 @@
       "price": 799,
       "description": "Chic and versatile diamond huggie earrings that add a touch of sparkle to any look.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_280591CZ_RGB_1000x.jpg?v=1582104754",
-      "category": "Earrings"
+      "category": "Earrings",
+      "quantity": 1
     },
     {
       "id": 17,
@@ -134,7 +150,8 @@
       "price": 320,
       "description": "A beautiful rose gold bracelet that adds a touch of warmth and elegance to your wrist.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/hc3xi2rknb2v4g8erwd3rftsd9u233m4_1000x.jpg?v=1678258708",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 18,
@@ -142,7 +159,8 @@
       "price": 420,
       "description": "A timeless and luxurious diamond tennis bracelet that dazzles with every movement.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_592403C01_RGB_1000x.png?v=1667742718",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 19,
@@ -150,7 +168,8 @@
       "price": 299,
       "description": "A sleek and modern silver cuff bracelet that adds a touch of sophistication.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_599539C00_RGB_1000x.png?v=1627829632",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 20,
@@ -158,7 +177,8 @@
       "price": 199,
       "description": "A delightful silver charm bracelet that allows you to showcase your personal style.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_592398C01_RGB_1000x.png?v=1667229992",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 21,
@@ -166,7 +186,8 @@
       "price": 599,
       "description": "A sleek and stylish gold bangle bracelet that adds a touch of sophistication to any outfit.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590524CZ_RGB_1800x1800.jpg?v=1582483360",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 22,
@@ -174,7 +195,8 @@
       "price": 349,
       "description": "A symbol of eternal love, this rose gold infinity bracelet makes a meaningful gift.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590702HV_RGB_1000x.jpg?v=1582549504",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 23,
@@ -182,7 +204,8 @@
       "price": 599,
       "description": "A stylish gold link bracelet that adds a touch of elegance to your wrist.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590719_RGB_1000x.jpg?v=1585587635",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 24,
@@ -190,7 +213,8 @@
       "price": 599,
       "description": "Fall in love many times over with the Sparkling Endless Hearts Chain Bracelet. This tennis bracelet-inspired design features six heart-shaped clear cubic zirconia set in alternating directions. A small heart-shaped stone dangles beside the lobster clasp to add extra sparkle. Wear it on its own or stack bracelets of different colours and metal finishes for a modern look      ",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_591162C01_RGB_1000x.png?v=1649579853",
-      "category": "Bracelets"
+      "category": "Bracelets",
+      "quantity": 1
     },
     {
       "id": 25,
@@ -198,7 +222,8 @@
       "price": 350,
       "description": "A stunning diamond wedding band that symbolizes the eternal bond of love.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_191165C01_RGB_1000x.png?v=1649576412",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 26,
@@ -206,7 +231,8 @@
       "price": 400,
       "description": "A captivating ring featuring a brilliant sapphire surrounded by sparkling diamonds.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_188421C02_RGB_1000x.png?v=1604237589",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 27,
@@ -214,7 +240,8 @@
       "price": 499,
       "description": "A statement-making amethyst cocktail ring that adds a bold touch to your outfit.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_192391C01_V2_RGB_1000x.png?v=1667227126",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 28,
@@ -222,7 +249,8 @@
       "price": 799,
       "description": "A radiant citrine and diamond ring that showcases natural beauty and elegance.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_196250CZ_RGB_1000x.jpg?v=1582993994",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 29,
@@ -230,7 +258,8 @@
       "price": 540,
       "description": "A stunning diamond halo engagement ring that symbolizes everlasting love and commitment.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_198598C08_RGB_1000x.jpg?v=1583072856",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 30,
@@ -238,7 +267,8 @@
       "price": 530,
       "description": "An exquisite ruby and diamond cluster ring that exudes opulence and glamour.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_189259C03_V4_RGB_1000x.png?v=1610884903",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 31,
@@ -246,7 +276,8 @@
       "price": 370,
       "description": "A timeless diamond solitaire engagement ring that signifies love and commitment.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_198863C02_RGB_1000x.png?v=1632142149",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     },
     {
       "id": 32,
@@ -254,7 +285,8 @@
       "price": 199,
       "description": "An enchanting emerald and diamond ring that showcases the beauty of nature.",
       "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_191043CZ_RGB_1000x.jpg?v=1582991957",
-      "category": "Rings"
+      "category": "Rings",
+      "quantity": 1
     }
   ],
   "Users": [

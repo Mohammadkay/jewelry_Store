@@ -7,5 +7,4 @@ import Login from "./Components/login/Login";
 function App() {
   return <></>;
 }
-
 export default App;

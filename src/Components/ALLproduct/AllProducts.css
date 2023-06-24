@@ -10,16 +10,12 @@
 }
 .cards img {
   width: 300px;
-  height: 350px;
+  height: 270px;
+  transition-duration: 1s;
   object-fit: cover;
 }
 .cards section {
   width: 90%;
-}
-article {
-  width: 300px;
-  cursor: pointer;
-  background-color: var(--secondaryBackground);
 }
 .card-details {
   border: solid 2px var(--backgroundColor);
@@ -45,8 +41,11 @@ article {
   width: 50%;
   justify-content: center;
   height: 30px;
-  border-right: 3px solid var(--backgroundColor);
+
   cursor: pointer;
+}
+.icon1 {
+  border-right: 3px solid var(--backgroundColor);
 }
 
 .icons div:hover .icon {
@@ -58,14 +57,14 @@ article {
 
   font-size: 18px;
 }
-article:hover .icons {
+.ProductsCards:hover .icons {
   opacity: 1;
   transition-duration: 1s;
 }
 
-article:hover img {
+.ProductsCards:hover img {
   opacity: 0.2;
-  transition-duration: 0.8s;
+  transition-duration: 1s;
 }
 .icons {
   width: 95%;
@@ -73,4 +72,18 @@ article:hover img {
   align-items: center;
   margin: auto;
   /* Adjust the duration as desired */
+<<<<<<< HEAD
 /* }  */
+=======
+}
+.ProductsCards:hover {
+  scale: 1.1;
+  transition: 1s;
+}
+.ProductsCards {
+  width: 300px;
+  cursor: pointer;
+  background-color: var(--secondaryBackground);
+  transition: 1s;
+}
+>>>>>>> ee14fb0daf860e362cbff46c0dc68a8da27c56db
