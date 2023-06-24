@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 // import "./Register.css";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 function Register() {
   // State with information Registration
+  const navigation = useNavigate();
   const [username, setuserName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -93,15 +95,16 @@ function Register() {
       username !== "" &&
       isValidUserName(username) &&
       password !== "" &&
-      isValidPassword(password) //&&
-      //   email !== "" &&
-      //   isValidEmail(email)
+      isValidPassword(password) &&
+      email !== "" &&
+      isValidEmail(email)
     ) {
       setEmail("");
       setPassword("");
       setuserName("");
       PostRegistration();
       console.log(Users);
+      navigation("/Login");
       // window.location.replace("https://www.google.com");
     }
 

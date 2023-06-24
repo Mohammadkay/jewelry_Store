@@ -3,15 +3,15 @@ import { Cart4, Facebook, Twitter, Pinterest } from "react-bootstrap-icons";
 import "./Nav.css";
 import "../../../node_modules/bootstrap/dist/js/bootstrap.js";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
-function Nav() {
+import { Link } from "react-router-dom";function Nav() {
   return (
     <div>
       <div className="BeforeNav">
         <h3>Phone shopping:00000000</h3>
 
         <ul className="Upper">
-          <li>My Account</li>
-          <li>Create account</li>
+          <Link to="Login">My Account</Link>
+          <Link to="/Register">Create account</Link>
           <Facebook color="#5a5b60c8" size={20} />
           <Twitter color="#5a5b60c8" size={20} />
           <Pinterest color=" #5a5b60c8" size={20} />

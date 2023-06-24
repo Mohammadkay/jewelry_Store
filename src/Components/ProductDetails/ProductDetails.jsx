@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import "./productDetails.css";
 import axios from "axios";
+import { useParams } from "react-router-dom";
+
 function ProductDetails() {
+  let Params = useParams();
   const [product, setProduct] = useState([]);
   const [price, setPrice] = useState("");
   const [user, setUser] = useState("");
@@ -9,12 +12,15 @@ function ProductDetails() {
 
   useEffect(() => {
     GetProduct();
-    Getusers();
-    Getcart();
+    if (Params.UserId !== undefined) {
+      Getusers();
+
+      Getcart();
+    }
   }, []);
 
   const GetProduct = () => {
-    fetch("http://localhost:9000/jewelryArray/8")
+    fetch(`http://localhost:9000/jewelryArray/${Params.productId}`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);
@@ -23,14 +29,14 @@ function ProductDetails() {
   };
 
   const Getusers = () => {
-    fetch("http://localhost:9000/Users/1")
+    fetch(`http://localhost:9000/Users/${Params.UserId}`)
       .then((res) => res.json())
       .then((data) => {
         setUser(data);
       });
   };
   const Getcart = () => {
-    fetch("http://localhost:9000/Users/1")
+    fetch(`http://localhost:9000/Users/${Params.UserId}`)
       .then((res) => res.json())
       .then((data) => {
         setCart(data.Cart);
@@ -41,7 +47,7 @@ function ProductDetails() {
     if (index === -1) {
       const updatedCart = [...cart, product];
       setCart(updatedCart);
-      axios.put("http://localhost:9000/Users/1", {
+      axios.put(`http://localhost:9000/Users/${Params.UserId}`, {
         ...user,
         Cart: updatedCart
       });
@@ -58,7 +64,7 @@ function ProductDetails() {
         return e;
       });
       setCart(updatedCart);
-      axios.put("http://localhost:9000/Users/1", {
+      axios.put(`http://localhost:9000/Users/${Params.UserId}`, {
         ...user,
         Cart: updatedCart
       });
@@ -110,7 +116,6 @@ function ProductDetails() {
               <h1>Total price: {product.price} JD</h1>
             </div>
           </div>
-
           <button onClick={() => addToCart()}>Add to card</button>
         </article>
         <div className="productImage">
