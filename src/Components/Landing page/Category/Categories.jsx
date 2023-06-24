@@ -4,7 +4,7 @@ import './Category.css'
 function Categories() {
   return (
     <div>
-       <h1>Our Products</h1>
+       <h1 className='OurCollection'>Our collection</h1>
     <div className='CategoryContainer'>
       
     <Category image="https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709" title=" NECKLACE"/>

@@ -6,12 +6,13 @@ import IndividualIntervalsExample from "./Sliderimg/Sliderimg";
 import OurTeamCountainer from "./OurTeam/OurTeamCountainer";
 export default function Landing() {
   return (
-    <>
+    <div > 
+    
       <IndividualIntervalsExample />
       <Categories />
       <AboutUs />
       <TestimonialCountainer />
       <OurTeamCountainer />
-    </>
+    </div>
   );
 }

@@ -3,7 +3,7 @@ import OurTeam from "./OurTeam";
 //OurTeamCountainer component serves as a wrapper for displaying a collection of team members.
 export default function OurTeamCountainer() {
   return (
-    <>
+    <div  >
       <h1 className="OruTeam" style={{ textAlign: "center" }}>
         Our Team
       </h1>
@@ -15,6 +15,6 @@ export default function OurTeamCountainer() {
         <OurTeam name="Mohammadkay" />
         <OurTeam name="OmarHilwah" />
       </div>
-    </>
+    </div>
   );
 }

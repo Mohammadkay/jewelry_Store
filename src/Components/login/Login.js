@@ -9,35 +9,33 @@ function Login() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [erorr, setErorr] = useState("");
+  const [error, setError] = useState("");
 
   useEffect(() => {
     GetRegistration();
+
+    // Event listener for window close
+   
   }, []);
 
-  // get data in sever json
+  // get data from server
   const GetRegistration = () => {
     axios
       .get("http://localhost:9000/Users/") // Replace the URL with your JSON server endpoint
       .then((response) => {
         setUsers(response.data);
-        // Do something with the retrieved data
+      })
+      .catch((error) => {
+        console.log(error);
       });
   };
-  // return the first user found
-  const valid = Users.find((user) => {
-    return user.email == email;
-  });
 
-  // get Email Value
   const getEmail = (event) => {
     setEmail(event.target.value);
   };
 
-  // get password Value
   const getPassword = (e) => {
     setPassword(e.target.value);
-    // console.log(password);
   };
 
   const FormHandle = (event) => {
@@ -45,18 +43,18 @@ function Login() {
     ValidationLogin();
   };
 
-  // Validation
   const ValidationLogin = () => {
+    const valid = Users.find((user) => user.email === email);
+
     if (valid) {
       if (valid.password === password) {
-        console.log("success");
-        setErorr("");
-        navigation("/Checkout");
-        // window.location.replace("https://www.google.com")
+        setError("");
+        navigation(`/${valid.id}`);
+
         axios
           .put(`http://localhost:9000/Users/${valid.id}`, {
             ...valid,
-            IsLogin: true,
+            IsLogin: true
           })
           .then((response) => {
             console.log(response);
@@ -64,41 +62,20 @@ function Login() {
           .catch((error) => {
             console.log(error);
           });
-
-        // const EditValue = Users.map((element) => {
-        //   if (element.id === valid.id) {
-        //     return { ...element, IsLogin: true };
-        //   }
-        //   return element;
-        // });
-
-        // axios
-        //   .put("http://localhost:9000/", {
-        //     Users: EditValue,
-        //   })
-        //   .then((response) => {
-        //     console.log(response);
-        //   })
-        //   .catch((error) => {
-        //     console.log(error);
-        //   });
-
-        // // Update the Users array or trigger a state update with EditValue
       } else {
-        setErorr("• Password or email is not correct");
+        setError("• Password or email is not correct");
       }
     } else {
-      setErorr("• Password or email is not correct");
+      setError("• Password or email is not correct");
     }
   };
 
-  // console.log(Users);
   return (
     <>
       <div className="containerr">
         <h4>Login</h4>
         <h6>Customer Login</h6>
-        <div className="erorrs">{erorr && <p>{erorr}</p>}</div>
+        <div className="errors">{error && <p>{error}</p>}</div>
 
         <form onSubmit={FormHandle}>
           <label>Email</label>
@@ -106,8 +83,9 @@ function Login() {
           <label>Password</label>
           <input type="password" onChange={getPassword} />
           <span>
-            <b>Forget Passowrd ?</b>
+            <b>Forget Password ?</b>
           </span>
+
           <button type="submit">Sign in</button>
         </form>
       </div>

@@ -7,48 +7,48 @@ ul {
 }
 
 .HoldOurTeam {
-  gap: 10px;
+  gap: 15px;
   grid-template-columns: auto auto auto;
   align-items: center;
-  width: 50%;
+  width: 80%;
   margin: auto;
   padding-top: 10px;
 }
 .OruTeam {
-  padding-top: 20px;
-  font-size: 30px;
-  font-family:  "Nantes Light", serif;
+  padding-top: 30px;
+  font-size: 35px;
+  font-family: "Nantes Light", serif;
 }
 
 .cardss {
   height: 280px;
-  width: 200px;
-  background-color: var(#f2e3cc);
+  background-color: #fefcf9;
+
   border: 1px solid rgb(236, 226, 207);
   border-radius: 20px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition:  0.1s ease;
+  transition: 0.1s ease;
 }
 .cardss:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .cardss h4 {
-  font-size: 19px;
+  font-size: 17px;
+  padding-top: 8px;
 }
 .cardss p {
-  font-size: 16px;
+  font-size: 14px;
 }
 .Image {
   border-radius: 50%;
   max-width: 100%;
   height: 180px;
   padding-top: 10px;
-
 }
-.iconss .fa-linkedin{
+.iconss .fa-linkedin {
   color: black;
   font-size: 15px;
 }
@@ -58,15 +58,23 @@ ul {
   color: black;
   font-size: 15px;
 }
- @media (max-width: 768px) {
+@media (max-width: 1024px) {
   .HoldOurTeam {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 70%;
+    justify-content: center;
   }
 }
 
- @media (max-width: 480px) {
+@media (max-width: 768px) {
   .HoldOurTeam {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .HoldOurTeam {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 
   .Image {
@@ -80,6 +88,11 @@ ul {
   .cardss p {
     font-size: 14px;
   }
-} 
+}
 
-
+@media (max-width: 1368px) {
+  .HoldOurTeam {
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+  }
+}

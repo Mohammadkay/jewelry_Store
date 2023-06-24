@@ -13,7 +13,7 @@ function Checkout() {
     city: "",
     address: "",
     firstname: "",
-    lastname: "",
+    lastname: ""
   });
 
   useEffect(() => {
@@ -42,7 +42,7 @@ function Checkout() {
         city: formData.city,
         address: formData.address,
         firstname: formData.firstname,
-        lastname: formData.lastname,
+        lastname: formData.lastname
       })
       .then((response) => {
         console.log(response);
@@ -76,7 +76,7 @@ function Checkout() {
         icon: "success",
         title: "Your work has been saved",
         showConfirmButton: false,
-        timer: 3000,
+        timer: 3000
       });
       setTimeout(() => {
         // window.location.replace("/https//www.google.com");
@@ -93,7 +93,7 @@ function Checkout() {
       // Spread the previous form data to create a new object
       ...prevFormData,
       // Use the computed property name [name] to update the specific field with the new value
-      [name]: value,
+      [name]: value
     }));
   };
 
@@ -103,13 +103,9 @@ function Checkout() {
   return (
     <>
       <div className="ContainerCheckOut">
-        <form action="" onClick={HandleForms}>
+        <form onSubmit={HandleForms}>
           <h3 className="Title">Jewelry-Themeforshop</h3>
 
-          {/* <div className="CheckOut labelField">
-            <label htmlFor="">Contact</label>
-            <input type="text" />
-          </div> */}
           <input
             className="Number-Arow"
             type="number"
@@ -123,12 +119,12 @@ function Checkout() {
             <label htmlFor="">Shipping address</label>
             <select
               name="country"
+              value={formData.country}
+              onChange={handleChange}
               // required
             >
               <option value="">Select your city</option>
-              <option value="Amman" name="country" onClick={handleChange}>
-                Amman (the capital)
-              </option>
+              <option value="Amman">Amman (the capital)</option>
               <option value="Irbid">Irbid</option>
               <option value="Zarqa">Zarqa</option>
               <option value="Mafraq">Mafraq</option>

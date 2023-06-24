@@ -4,7 +4,7 @@ import Testimonial from "./Testimonial";
 //The TestimonialCountainer component serves as a wrapper for displaying a collection of testimonials
 export default function TestimonialCountainer() {
   return (
-    <>
+    <div className="container">
       <h1 className="Testimoniall" style={{ textAlign: "center" }}>
         What our client say !{" "}
       </h1>
@@ -30,6 +30,6 @@ export default function TestimonialCountainer() {
           img="https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
       </div>
-    </>
+    </div>
   );
 }

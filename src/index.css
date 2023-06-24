@@ -25,10 +25,10 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  /* font-size: 62.5%; */
+}
 
-/* Set the default font size for the page */
-
-  /* 1rem = 10px (assuming 16px as the default font size) */
 
 
 /* Improve default styles for media elements */

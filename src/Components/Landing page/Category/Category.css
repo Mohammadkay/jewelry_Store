@@ -59,6 +59,12 @@ h3{
  transition: 0.5s;
   
 }
+.OurCollection{
+    margin-top: 35px;
+    font-size: 30px;
+    font-family:  "Nantes Light", serif;
+
+}
 @media screen and (min-width: 200px) and (max-width: 912px) {
     .CategoryContainer{
       flex-direction: column;
