@@ -1,11 +1,6 @@
 .ContainerCheckOut {
-<<<<<<< HEAD
-  width: 90%;
-  height: 70vh;
-=======
   width: 100%;
   height: 100vh;
->>>>>>> ebb91792e6c6a5eae5ecc26df68c123c88e2fb14
   display: flex;
   align-items: stretch;
   justify-content: flex-end;
@@ -65,23 +60,7 @@ select {
   font-size: 15px;
   font-weight: 500;
 }
-<<<<<<< HEAD
-.btnCheckOut:hover {
-  background-color: #eeb15b;
-}
-=======
->>>>>>> ebb91792e6c6a5eae5ecc26df68c123c88e2fb14
 
 .Number-Arow::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
-<<<<<<< HEAD
-.Address {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-=======
->>>>>>> ebb91792e6c6a5eae5ecc26df68c123c88e2fb14

@@ -310,21 +310,12 @@
     },
     {
       "email": "kayyali@gmail.com21",
-<<<<<<< HEAD
       "phone": "32445",
       "country": "Mafraq",
       "city": "jkkl",
       "address": "hjk",
       "firstname": "ddd",
       "lastname": "aaaa",
-=======
-      "phone": "056565688979",
-      "country": "Irbid",
-      "city": "sdadsa",
-      "address": "sdasad",
-      "firstname": "sdadsa",
-      "lastname": "adssdasadsad",
->>>>>>> ebb91792e6c6a5eae5ecc26df68c123c88e2fb14
       "password": "Kauuasdasl21",
       "username": "Mohammad21",
       "Image": "./",
@@ -364,30 +355,19 @@
       "id": 8
     },
     {
-<<<<<<< HEAD
       "email": "duha@gmail",
-=======
-      "email": "Kayysad@gmail.com",
->>>>>>> ebb91792e6c6a5eae5ecc26df68c123c88e2fb14
-      "phone": "",
-      "country": "",
-      "city": "",
-      "address": "",
-      "firstname": "",
-      "lastname": "",
-<<<<<<< HEAD
+      "phone": "056565688979",
+      "country": "Maan",
+      "city": "sdadsa",
+      "address": "sdasad",
+      "firstname": "sdadsa",
+      "lastname": "sadsda",
       "password": "Duha2001",
       "username": "duha",
-=======
-      "password": "Kayyali12",
-      "username": "Kayyali12w",
->>>>>>> ebb91792e6c6a5eae5ecc26df68c123c88e2fb14
       "Image": "./",
       "IsLogin": true,
       "Address": "",
-      "History": [],
-<<<<<<< HEAD
-      "Cart": [
+      "History": [
         {
           "id": 4,
           "name": "Silver Initial Pendant ",
@@ -414,29 +394,7 @@
           "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_292334C08_RGB_1000x1000.png?v=1677495632",
           "category": "Earrings",
           "quantity": 4
-        }
-      ],
-      "Favorite": [],
-      "id": 9
-=======
-      "Cart": [],
-      "Favorite": [],
-      "id": 9
-    },
-    {
-      "email": "kayyali@gmail.com2",
-      "phone": "056565688979",
-      "country": "",
-      "city": "sdadsa",
-      "address": "SA",
-      "firstname": "sdadsa",
-      "lastname": "sadsda",
-      "password": "Kayyali-2001",
-      "username": "Kayyali122",
-      "Image": "./",
-      "IsLogin": true,
-      "Address": "",
-      "History": [
+        },
         {
           "id": 2,
           "name": "Ruby Pendant Necklace",
@@ -445,22 +403,12 @@
           "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
           "category": "Necklaces",
           "quantity": 3
-        },
-        {
-          "id": 3,
-          "name": "Tanzanite  Pendant",
-          "price": 500,
-          "description": "An exquisite tanzanite and diamond pendant that captures attention with its vibrant colors.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_1024x1024.jpg?v=1435561424",
-          "category": "Necklaces",
-          "quantity": 1
         }
       ],
       "Cart": [],
       "Favorite": [],
-      "id": 10,
-      "Date": "6/24/2023"
->>>>>>> ebb91792e6c6a5eae5ecc26df68c123c88e2fb14
+      "id": 9,
+      "Date": "6/25/2023"
     }
   ]
 }

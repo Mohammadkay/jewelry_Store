@@ -49,10 +49,7 @@ function Checkout() {
         lastname: formData.lastname,
         History: User.Cart,
         Cart: [],
-<<<<<<< HEAD
-=======
         Date: new Date().toLocaleDateString()
->>>>>>> ebb91792e6c6a5eae5ecc26df68c123c88e2fb14
       })
       .then((response) => {
         console.log(response);
