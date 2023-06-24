@@ -52,7 +52,7 @@ function Register() {
         Address: "",
         History: [],
         Cart: [],
-        Favorite: [],
+        Favorite: []
       })
       .then((data) => {});
   };
@@ -69,7 +69,7 @@ function Register() {
 
   //VALIDATION ####################################################
   const emailRegex = /^[^\s@]+@[^\s@]+.[^\s@]+$/;
-  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
+  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z0-9-_]{8,}$/;
   const validationForms = () => {
     const isValidEmail = (email) => {
       // Regular expression for email validation
@@ -93,9 +93,9 @@ function Register() {
       username !== "" &&
       isValidUserName(username) &&
       password !== "" &&
-      isValidPassword(password) &&
-      email !== "" &&
-      isValidEmail(email)
+      isValidPassword(password) //&&
+      //   email !== "" &&
+      //   isValidEmail(email)
     ) {
       setEmail("");
       setPassword("");
