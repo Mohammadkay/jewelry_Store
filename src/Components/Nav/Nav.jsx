@@ -1,6 +1,7 @@
 import React from 'react';
 import './Nav.css';
 
+
 const Nav = () => {
   const handleProfileToggle = () => {
     const profileMenu = document.querySelector('#navbarProfile .navbar-nav');
