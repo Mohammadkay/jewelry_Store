@@ -1,34 +1,54 @@
-/* :root {
-  --labelCollor: #9f7935;
-  --buttonColor: #f2e3cc;
-  --backgroundColor: #f7f7f7;
-  --secondaryBackground: #fff;
-} */
+.containerr {
+  padding: 20px;
+  margin: auto;
+  width: 1200px;
+}
+
+
 
 form {
   display: flex;
   flex-direction: column;
-  background-color: #9f7935;
-  width: 400px;
-  gap: 20px;
-  margin: 100px auto;
-  padding: 20px;
+}
 
-} */
+form input {
+  width: 600px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
 
- .Filed-lable {
+label {
   display: flex;
   flex-direction: column;
 }
 
-.Filed-lable label {
-  font-size: 20px;
+button {
+  background-color: white;
+  color: #171717;
+  margin-top: 20px;
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+  border-radius: 8px;
+  width: 350px;
+  padding: 10px 0;
 }
 
-.Filed-lable input {
-  height: 50px;
+button:hover {
+  color: white;
+  background-color: #a07936;
+  transition-duration: .5s;
+
 }
 
-.btnSignUp {
-  font-size: 20px;
+
+.erorrs {
+  background-color: #f2e4cc;
+  width: 1463px;
+}
+
+.erorrs p {
+  padding: 10px;
+  margin: 5px;
+  line-height: 15px;
 }
