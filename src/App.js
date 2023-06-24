@@ -9,7 +9,7 @@ import Landing from "./Components/Landing page/Landing";
 import Nav from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
 import Cart from "./Components/Cart/Cart";
-
+import History from "./Components/History/History";
 function App() {
   return (
     <>
@@ -23,6 +23,7 @@ function App() {
         <Route path="/:UserId/AllProducts" element={<AllProducts />} />
         <Route path="/AllProducts" element={<AllProducts />} />
         <Route path=":UserId/Cart" element={<Cart />} />
+        <Route path=":UserId/History" element={<History />} />
         <Route
           path=":UserId/AllProducts/ProductDetails/:productId"
           element={<ProductDetails />}

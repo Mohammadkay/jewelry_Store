@@ -17,8 +17,7 @@ function AboutUs() {
               combination, and gems fabricating.Jewellery Store is resolved to
               give the most ideal incentive to Jewelers all through the world.
               We will probably enable the autonomous gem dealer to remain in
-              front of their opposition and give their retail clients the
-              exceptional deals that keep them returning for additional.
+              front of their
             </p>
 
             <p> </p>

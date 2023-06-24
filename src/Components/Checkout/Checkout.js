@@ -30,9 +30,11 @@ function Checkout() {
   };
 
   const GetDataUser = () => {
-    axios.get(`http://localhost:9000/Users/7`).then((respons) => {
-      setUser(respons.data);
-    });
+    axios
+      .get(`http://localhost:9000/Users/${Params.UserId}`)
+      .then((respons) => {
+        setUser(respons.data);
+      });
   };
 
   const UpdateUser = () => {
@@ -47,6 +49,10 @@ function Checkout() {
         lastname: formData.lastname,
         History: User.Cart,
         Cart: [],
+<<<<<<< HEAD
+=======
+        Date: new Date().toLocaleDateString()
+>>>>>>> ebb91792e6c6a5eae5ecc26df68c123c88e2fb14
       })
       .then((response) => {
         console.log(response);

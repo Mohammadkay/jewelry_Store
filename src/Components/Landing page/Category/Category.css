@@ -61,9 +61,10 @@ width:100px;
   
 }
 .OurCollection{
-    margin-top: 35px;
+    padding: 35px;
     font-size: 30px;
     font-family:  "Nantes Light", serif;
+    
 
 }
 @media screen and (min-width: 200px) and (max-width: 912px) {

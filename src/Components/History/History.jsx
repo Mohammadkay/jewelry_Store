@@ -1,16 +1,21 @@
 import React, { useEffect, useState } from "react";
 import "./History.css";
+import { useParams } from "react-router-dom";
 
 function History() {
   const [History, SetHistory] = useState([]);
+  const [Date, SetDate] = useState();
+  let Params = useParams();
   useEffect(() => {
-    fetch("http://localhost:9000/Users/7")
+    fetch(`http://localhost:9000/Users/${Params.UserId}`)
       .then((response) => response.json())
       .then((data) => {
         SetHistory(data.History);
+        SetDate(data.Date);
       });
   }, []);
-  console.log(History);
+
+  console.log(Params.UserId);
   function Maphistory() {
     return History.map((ele) => (
       <tr key={ele.id}>
@@ -20,6 +25,8 @@ function History() {
         <td>{ele.name}</td>
         <td>{ele.quantity}</td>
         <td>{ele.price}</td>
+
+        <td>{Date}</td>
       </tr>
     ));
   }
@@ -27,7 +34,7 @@ function History() {
     <div>
       <div className="container">
         <h1 className="mb-4">Order History</h1>
-        <table className="table">
+        <table className="table HistoryTable">
           <thead className="thead-dark">
             <tr>
               <th scope="col">Product Image</th>

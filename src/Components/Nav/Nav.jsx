@@ -39,19 +39,21 @@ const Nav = ({}) => {
           <a className="navbar-brand" style={{ fontSize: "13px" }}>
             PHONE SHOPPING (+962) 7 9661 8504
           </a>
-          <button
-            style={{ backgroundColor: "white !important" }}
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarProfile"
-            aria-controls="navbarProfile"
-            aria-expanded="false"
-            aria-label="Toggle profile"
-            onClick={handleProfileToggle}
-          >
-            <i className="fas fa-user"></i>
-          </button>
+          <div style={{ width: "98%", textAlign: "-webkit-right" }}>
+            <button
+              style={{ backgroundColor: "white !important" }}
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarProfile"
+              aria-controls="navbarProfile"
+              aria-expanded="false"
+              aria-label="Toggle profile"
+              onClick={handleProfileToggle}
+            >
+              <i className="fas fa-user"></i>
+            </button>
+          </div>
           <div
             className="collapse navbar-collapse justify-content-end"
             id="navbarProfile"
@@ -65,6 +67,11 @@ const Nav = ({}) => {
               <li className="nav-item">
                 <Link className="nav-link" to="/Register">
                   CREATE ACCOUNT
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to={`${userId}/History`}>
+                  History
                 </Link>
               </li>
               <div
@@ -104,10 +111,10 @@ const Nav = ({}) => {
             <img
               className="col-sm"
               src="./image/loogggo3.png"
-              width="50px"
               alt=""
+              width="50px"
             />
-            <img src="./image/Untitle22d-1.png" width="130px" alt="" />
+            <img src="./image/Untitle22d-1.png" alt="" width="130px" />
           </a>
           <button
             className="navbar-toggler"
