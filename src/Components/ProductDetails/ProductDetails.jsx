@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import "./productDetails.css";
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { useParams ,useNavigate } from "react-router-dom";
+import Swal from 'sweetalert2' 
 
 function ProductDetails() {
+  let navigate =useNavigate()
   let Params = useParams();
+  console.log(Params)
   const [product, setProduct] = useState([]);
   const [price, setPrice] = useState("");
   const [user, setUser] = useState("");
@@ -69,10 +72,23 @@ function ProductDetails() {
         Cart: updatedCart
       });
     }
+    
   };
 
   function addToCart() {
     UpdateUser();
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Your work has been saved',
+      showConfirmButton: true,
+    
+    }).then((res)=>{
+    
+      if(res.isConfirmed){
+        navigate(`/${Params.UserId}/AllProducts`)
+      }
+    })
   }
 
   function incrementQuantity() {

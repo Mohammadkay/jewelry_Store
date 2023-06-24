@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import "./Checkout.css";
 import axios from "axios";
 import Swal from "sweetalert2";
+import { useNavigate, useParams } from "react-router";
 
 function Checkout() {
   const [Users, setUsers] = useState([]);
   const [User, setUser] = useState([]);
-
+  let navegate = useNavigate();
+  let Params = useParams();
   const [formData, setFormData] = useState({
     phone: "",
     country: "",
@@ -42,7 +44,9 @@ function Checkout() {
         city: formData.city,
         address: formData.address,
         firstname: formData.firstname,
-        lastname: formData.lastname
+        lastname: formData.lastname,
+        History: User.Cart,
+        Cart: []
       })
       .then((response) => {
         console.log(response);
@@ -74,12 +78,12 @@ function Checkout() {
       Swal.fire({
         position: "center",
         icon: "success",
-        title: "Your work has been saved",
+        title: "Your Order has been submitted successfully",
         showConfirmButton: false,
         timer: 3000
       });
       setTimeout(() => {
-        // window.location.replace("/https//www.google.com");
+        navegate(`/${Params.UserId}`);
       }, "3000");
     }
   };
