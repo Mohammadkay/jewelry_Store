@@ -10,18 +10,19 @@ ul {
   gap: 10px;
   grid-template-columns: auto auto auto;
   align-items: center;
-  width: 70%;
+  width: 50%;
   margin: auto;
   padding-top: 10px;
 }
 .OruTeam {
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: 30px;
+  font-family:  "Nantes Light", serif;
 }
 
 .cardss {
-  height: 320px;
-  
+  height: 280px;
+  width: 200px;
   background-color: var(#f2e3cc);
   border: 1px solid rgb(236, 226, 207);
   border-radius: 20px;
@@ -29,7 +30,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: box-shadow 0.1s ease;
+  transition:  0.1s ease;
 }
 .cardss:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -44,22 +45,26 @@ ul {
   border-radius: 50%;
   max-width: 100%;
   height: 180px;
-  /* object-fit: cover; */
-}
-
-.fa-github,
-.fa-linkedin {
-  margin-right: 10px;
   padding-top: 10px;
+
+}
+.iconss .fa-linkedin{
+  color: black;
+  font-size: 15px;
 }
 
-@media (max-width: 768px) {
+.iconss .fa-github {
+  margin-right: 5px;
+  color: black;
+  font-size: 15px;
+}
+ @media (max-width: 768px) {
   .HoldOurTeam {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 
-@media (max-width: 480px) {
+ @media (max-width: 480px) {
   .HoldOurTeam {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
@@ -75,4 +80,6 @@ ul {
   .cardss p {
     font-size: 14px;
   }
-}
+} 
+
+

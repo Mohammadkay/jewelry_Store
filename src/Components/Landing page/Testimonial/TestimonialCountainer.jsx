@@ -11,7 +11,7 @@ export default function TestimonialCountainer() {
       <div className="HoldTestimonial" >
         <Testimonial
           name="Emma"
-          descraption="My wife loves the jewellery pieces. They're beautiful, excellent quality, and the shopping experience is simple and easy."
+          descraption="They're beautiful, excellent quality, and the shopping experience is simple and easy."
           img="https://images.pexels.com/photos/698532/pexels-photo-698532.jpeg?auto=compress&cs=tinysrgb&w=600"
         />
         <Testimonial

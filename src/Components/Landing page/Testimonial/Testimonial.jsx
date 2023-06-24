@@ -15,7 +15,7 @@ function Testimonial(props) {
           <div>
             <img src={props.img} alt="" />
           </div>
-          <div className="icons">
+          <div className="iconn">
             <i className="fa-solid fa-star"></i>
             <i className="fa-solid fa-star"></i>
             <i className="fa-solid fa-star"></i>
