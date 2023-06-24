@@ -1,15 +1,13 @@
-/* .ContainerCheckOut {
-  width: 100%;
-  height: 100vh;
+.ContainerCheckOut {
+  width: 90%;
+  height: 70vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: flex-end;
 }
 
 .Title {
   align-items: flex-start;
-
 }
 
 form {
@@ -17,6 +15,9 @@ form {
   flex-direction: column;
   gap: 20px;
   width: 70vw;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 form label {
@@ -33,35 +34,42 @@ form input,
 select {
   padding: 13px;
   border-radius: 10px;
-  border: 1px solid #cdcbcb;
-  outline-color: rgb(101, 101, 101);
+
+  border: 2px solid rgb(236, 226, 207);
 }
 
 .firstNameLast {
-  width: 100%;
+  width: 50%;
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .firstNameLast input {
   width: 100%;
 }
 
-form button {
-  width: 130px;
-  align-self: flex-end;
-  padding: 20px 0;
-  background-color: rgb(42, 157, 204);
+.btnCheckOut {
+  background-color: #f7e4c9;
+  border: 1px solid rgb(236, 226, 207);
+  width: 300px;
+
   border-radius: 10px;
-  border: none;
-  color: white;
-  font-size: 12px;
+
+  color: black;
+  font-size: 15px;
   font-weight: 500;
 }
-
+.btnCheckOut:hover {
+  background-color: #eeb15b;
+}
 
 .Number-Arow::-webkit-inner-spin-button {
   -webkit-appearance: none;
-
-} */
+}
+.Address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

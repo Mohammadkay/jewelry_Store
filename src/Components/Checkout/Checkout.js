@@ -3,7 +3,7 @@ import "./Checkout.css";
 import axios from "axios";
 import Swal from "sweetalert2";
 import { useNavigate, useParams } from "react-router";
-
+// import j2 from '../image/j2.jpg';
 function Checkout() {
   const [Users, setUsers] = useState([]);
   const [User, setUser] = useState([]);
@@ -15,7 +15,7 @@ function Checkout() {
     city: "",
     address: "",
     firstname: "",
-    lastname: ""
+    lastname: "",
   });
 
   useEffect(() => {
@@ -46,7 +46,7 @@ function Checkout() {
         firstname: formData.firstname,
         lastname: formData.lastname,
         History: User.Cart,
-        Cart: []
+        Cart: [],
       })
       .then((response) => {
         console.log(response);
@@ -80,7 +80,7 @@ function Checkout() {
         icon: "success",
         title: "Your Order has been submitted successfully",
         showConfirmButton: false,
-        timer: 3000
+        timer: 3000,
       });
       setTimeout(() => {
         navegate(`/${Params.UserId}`);
@@ -97,7 +97,7 @@ function Checkout() {
       // Spread the previous form data to create a new object
       ...prevFormData,
       // Use the computed property name [name] to update the specific field with the new value
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -109,47 +109,6 @@ function Checkout() {
       <div className="ContainerCheckOut">
         <form onSubmit={HandleForms}>
           <h3 className="Title">Jewelry-Themeforshop</h3>
-
-          <input
-            className="Number-Arow"
-            type="number"
-            placeholder="phone"
-            name="phone"
-            // value={formData.phone}
-            onChange={handleChange}
-            // required
-          />
-          <div className="CheckOut labelField">
-            <label htmlFor="">Shipping address</label>
-            <select
-              name="country"
-              value={formData.country}
-              onChange={handleChange}
-              // required
-            >
-              <option value="">Select your city</option>
-              <option value="Amman">Amman (the capital)</option>
-              <option value="Irbid">Irbid</option>
-              <option value="Zarqa">Zarqa</option>
-              <option value="Mafraq">Mafraq</option>
-              <option value="Ajloun">Ajloun</option>
-              <option value="Jerash">Jerash</option>
-              <option value="Madaba">Madaba</option>
-              <option value="Balqa">Balqa</option>
-              <option value="Karak">Karak</option>
-              <option value="Tafileh">Tafileh</option>
-              <option value="Maan">Maan</option>
-              <option value="Aqaba">Aqaba</option>
-            </select>
-          </div>
-          <input
-            type="text"
-            placeholder="City"
-            name="city"
-            value={formData.city}
-            onChange={handleChange}
-            // required
-          />
           <div className="firstNameLast">
             <input
               type="text"
@@ -167,17 +126,58 @@ function Checkout() {
               onChange={handleChange}
               // required
             />
+            <input
+              className="Number-Arow"
+              type="number"
+              placeholder="phone"
+              name="phone"
+              // value={formData.phone}
+              onChange={handleChange}
+              // required
+            />
+            <div className="Address">
+              <input
+                type="text"
+                placeholder="City"
+                name="city"
+                value={formData.city}
+                onChange={handleChange}
+                // required
+              />
+            </div>
+            <label htmlFor="">Shipping address</label>
+            <input
+              type="text"
+              placeholder="Address (St ,apartment , suite ,etc)"
+              name="address"
+              value={formData.address}
+              onChange={handleChange}
+              // required
+            />
+            <div className="CheckOut labelField">
+              <select
+                name="country"
+                value={formData.country}
+                onChange={handleChange}
+                // required
+              >
+                <option value="">Select your city</option>
+                <option value="Amman">Amman (the capital)</option>
+                <option value="Irbid">Irbid</option>
+                <option value="Zarqa">Zarqa</option>
+                <option value="Mafraq">Mafraq</option>
+                <option value="Ajloun">Ajloun</option>
+                <option value="Jerash">Jerash</option>
+                <option value="Madaba">Madaba</option>
+                <option value="Balqa">Balqa</option>
+                <option value="Karak">Karak</option>
+                <option value="Tafileh">Tafileh</option>
+                <option value="Maan">Maan</option>
+                <option value="Aqaba">Aqaba</option>
+              </select>
+            </div>
           </div>
-          <input
-            type="text"
-            placeholder="Address (St ,apartment , suite ,etc)"
-            name="address"
-            value={formData.address}
-            onChange={handleChange}
-            // required
-          />
-
-          <input type="submit" />
+          <input type="submit" className="btnCheckOut" />
         </form>
       </div>
     </>

@@ -311,37 +311,18 @@
     },
     {
       "email": "kayyali@gmail.com21",
-      "phone": "056565688979",
-      "country": "Irbid",
-      "city": "sdadsa",
-      "address": "sadsdasad",
-      "firstname": "asdsadsasda",
-      "lastname": "adssdasadsad",
+      "phone": "32445",
+      "country": "Mafraq",
+      "city": "jkkl",
+      "address": "hjk",
+      "firstname": "ddd",
+      "lastname": "aaaa",
       "password": "Kauuasdasl21",
       "username": "Mohammad21",
       "Image": "./",
       "IsLogin": true,
       "Address": "",
-      "History": [
-        {
-          "id": 2,
-          "name": "Ruby Pendant Necklace",
-          "price": 600,
-          "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
-          "category": "Necklaces",
-          "quantity": 3
-        },
-        {
-          "id": 1,
-          "name": "Elegant Diamond Necklace",
-          "price": 1074,
-          "description": "A stunning diamond necklace that exudes elegance and sophistication.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
-          "category": "Necklaces",
-          "quantity": 3
-        }
-      ],
+      "History": [],
       "Cart": [],
       "Favorite": [],
       "id": 7
@@ -391,6 +372,52 @@
       ],
       "Favorite": [],
       "id": 8
+    },
+    {
+      "email": "duha@gmail",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "Duha2001",
+      "username": "duha",
+      "Image": "./",
+      "IsLogin": true,
+      "Address": "",
+      "History": [],
+      "Cart": [
+        {
+          "id": 4,
+          "name": "Silver Initial Pendant ",
+          "price": 149,
+          "description": "A personalized silver initial pendant necklace that adds a unique touch to your style.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_399260C00_V2_RGB_1000x.png?v=1626262071",
+          "category": "Necklaces",
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "name": " Teardrop Pendant Necklace",
+          "price": 899,
+          "description": "An exquisite diamond teardrop pendant necklace that sparkles with elegance.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391229C01_V4_RGB_1000x1000.png?v=1646287952",
+          "category": "Necklaces",
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "name": "Emerald Drop Earrings",
+          "price": 1872,
+          "description": "Exquisite emerald drop earrings that enhance your natural beauty.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_292334C08_RGB_1000x1000.png?v=1677495632",
+          "category": "Earrings",
+          "quantity": 4
+        }
+      ],
+      "Favorite": [],
+      "id": 9
     }
   ]
 }

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 import Swal from "sweetalert2";
-
+import'./Cart.css'
 function Cart() {
   const [carts, setCart] = useState([]);
   const [total, setTotal] = useState(0);
