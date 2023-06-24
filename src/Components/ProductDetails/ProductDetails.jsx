@@ -3,47 +3,70 @@ import "./productDetails.css";
 import axios from "axios";
 function ProductDetails() {
   const [product, setProduct] = useState([]);
-  const [price, setPrice] = useState();
-  const [user, setUser] = useState();
+  const [price, setPrice] = useState("");
+  const [user, setUser] = useState("");
+  const [cart, setCart] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:9000/jewelryArray/7")
+    GetProduct();
+    Getusers();
+    Getcart();
+  }, []);
+
+  const GetProduct = () => {
+    fetch("http://localhost:9000/jewelryArray/8")
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);
         setPrice(data.price);
       });
-  }, []);
+  };
 
-  async function addToCart() {
-    axios.get("http://localhost:9000/Users/1").then((response) => {
-      const userData = response.data;
-      let index = userData.Cart.findIndex((e) => e.id === product.id);
-      if (index !== -1) {
-        const existingProduct = userData.Cart[index];
-        setProduct((prevProduct) => ({
-          ...prevProduct,
-          quantity: prevProduct.quantity + existingProduct.quantity,
-          price: prevProduct.price + existingProduct.price
-        }));
-        userData.Cart[index] = product;
-        console.log(product);
-      } else {
-        userData.Cart.push(product);
-      }
+  const Getusers = () => {
+    fetch("http://localhost:9000/Users/1")
+      .then((res) => res.json())
+      .then((data) => {
+        setUser(data);
+      });
+  };
+  const Getcart = () => {
+    fetch("http://localhost:9000/Users/1")
+      .then((res) => res.json())
+      .then((data) => {
+        setCart(data.Cart);
+      });
+  };
+  const UpdateUser = () => {
+    const index = cart.findIndex((e) => e.id === product.id);
+    if (index === -1) {
+      const updatedCart = [...cart, product];
+      setCart(updatedCart);
+      axios.put("http://localhost:9000/Users/1", {
+        ...user,
+        Cart: updatedCart
+      });
+    } else {
+      console.log(cart);
+      const updatedCart = cart.map((e) => {
+        if (e.id === product.id) {
+          return {
+            ...e,
+            quantity: e.quantity + product.quantity,
+            price: e.price + product.price
+          };
+        }
+        return e;
+      });
+      setCart(updatedCart);
+      axios.put("http://localhost:9000/Users/1", {
+        ...user,
+        Cart: updatedCart
+      });
+    }
+  };
 
-      // Send the updated user data to the server
-      axios
-        .put("http://localhost:9000/Users/1", userData)
-        .then(() => {
-          // Product details updated successfully
-          console.log("Product details updated.");
-        })
-        .catch((error) => {
-          // Handle error if the update fails
-          console.error("Error updating product details:", error);
-        });
-    });
+  function addToCart() {
+    UpdateUser();
   }
 
   function incrementQuantity() {
@@ -97,4 +120,5 @@ function ProductDetails() {
     </main>
   );
 }
+
 export default ProductDetails;
