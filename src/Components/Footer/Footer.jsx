@@ -19,7 +19,7 @@ function Footer() {
               data-mdb-ripple-color="dark"
             >
               <i className="fab fa-facebook-f"></i>
-            </a> */}
+            </a>
 
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -57,7 +57,7 @@ function Footer() {
               <i className="fab fa-linkedin"></i>
             </a>
 
-             <a
+            <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
               href="#!"
               role="button"
@@ -68,12 +68,7 @@ function Footer() {
           </section>
         </div>
 
-        <div
-          className="text-center  p-3"
-          style={{ backgroundColor: "black",color: "white"}}
-        >
-          © 2023 Copyright:Jewelery Store
-        </div>
+        <div className="text-center  p-3">© 2023 COPYRIGHT JEWLEREY STORE</div>
       </footer>
     </div>
   );
