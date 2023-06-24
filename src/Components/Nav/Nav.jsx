@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css';
 
-const Navbar = () => {
+const Nav = () => {
   const handleProfileToggle = () => {
     const profileMenu = document.querySelector('#navbarProfile .navbar-nav');
     profileMenu.classList.toggle('show');
@@ -80,4 +80,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;

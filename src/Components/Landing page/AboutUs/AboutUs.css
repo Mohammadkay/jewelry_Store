@@ -1,23 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.Center{
-   
-    height: 50vh;
-    width: 100%;
-    background-color: #faf3e9;
-    display: flex;
-   margin-top: 10px;
-   text-align: center;
+.Center {
+  height: 50vh;
+  width: 100%;
+  background-color: #faf3e9;
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
 }
-  
-.Text{
-    margin-left: 15px;
-   
+
+.Text {
+  margin-left: 15px;
 }
 .JewelleryStore{
     text-align: center;
@@ -29,37 +26,33 @@
 }
 
 
- 
-
-
-.Text2{
-    font-size: medium;
-    margin-top: 20px;
-   font-weight: 600;
-   color:#171616
+.Text2 {
+  font-size: medium;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #171616;
 }
 @media screen and (min-width: 200px) and (max-width: 912px) {
-    .Center img{
-        height: 22  0px;
-        width: 100%;
-    }
-    .Center{
-        margin-top: 0;
-        flex-wrap: wrap;
-        height: 100vh;
-        width: 100vw;
-       
-    }
-    .Text{
-        margin-top: 0;
-    }
-    .Text2{
-        margin-top: 0;
-        font-size: small;
-    }
-    .Text h1{
-        font-size: 30px;
-    }
+  .Center img {
+    height: 22 0px;
+    width: 100%;
+  }
+  .Center {
+    margin-top: 0;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+  }
+  .Text {
+    margin-top: 0;
+  }
+  .Text2 {
+    margin-top: 0;
+    font-size: small;
+  }
+  .Text h1 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (min-width: 913px) and (max-width: 1030px) {
