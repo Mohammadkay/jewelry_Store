@@ -3,9 +3,7 @@
 
 
 import "./App.css";
-<<<<<<< HEAD
 
-=======
 // import AllProducts from "./Components/ALLproduct/AllProducts";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Categories from "./Components/Category/Categories";
