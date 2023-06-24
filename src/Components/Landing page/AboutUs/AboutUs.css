@@ -61,3 +61,16 @@
         font-size: 30px;
     }
 }
+
+@media screen and (min-width: 913px) and (max-width: 1030px) {
+    .Text h1{
+        font-size:30px;
+        }
+
+}
+.Text2{
+    font-size: small;
+    margin-top: 10px;}
+    h1{
+       
+       margin-top: 20px;}
