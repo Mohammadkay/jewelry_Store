@@ -44,4 +44,8 @@ function History() {
   );
 }
 
+<<<<<<< HEAD
 export default History;
+=======
+export default History
+>>>>>>> 9f23baa8784d9756c65fc4f875c92e031712496b

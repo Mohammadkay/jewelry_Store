@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "../Registration/Register.css";
 import { useNavigate } from "react-router-dom";
+import './login.css'
 
 function Login() {
   const navigation = useNavigate();
