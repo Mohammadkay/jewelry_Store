@@ -69,10 +69,10 @@ function Footer() {
         </div>
 
         <div
-          className="text-center text-dark p-3"
+          className="text-center text-light bg-dark p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          © 2023 Copyright:Jewelery Store
+          © 2023 COPYRIGHT JEWLEREY STORE 
         </div>
       </footer>
     </div>

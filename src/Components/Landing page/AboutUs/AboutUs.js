@@ -3,8 +3,7 @@ import "./AboutUs.css";
 import Pic from "./Images/Pic.jpg";
 function AboutUs() {
   return (
-    <div>
-    
+    <div id="About">
       <div className="Center">
         <img src={Pic} alt="" />
         <div className="Text">

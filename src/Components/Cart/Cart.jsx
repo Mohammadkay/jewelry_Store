@@ -1,6 +1,7 @@
 import "../../../node_modules/bootstrap/dist/js/bootstrap.js";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
 import { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 import Swal from "sweetalert2";
 
@@ -8,9 +9,11 @@ function Cart() {
   const [carts, setCart] = useState([]);
   const [total, setTotal] = useState(0);
   const [user, setUser] = useState();
+  let Params = useParams();
+  console.log(Params.UserId);
 
   useEffect(() => {
-    fetch("http://localhost:9000/Users/7")
+    fetch(`http://localhost:9000/Users/${Params.UserId}`)
       .then((res) => res.json())
       .then((data) => {
         setCart(data.Cart);
@@ -43,7 +46,7 @@ function Cart() {
         Swal.fire("Deleted!", "Your file has been deleted.", "success");
         const updatedCart = carts.filter((item) => item.id !== id);
         axios
-          .put("http://localhost:9000/Users/7", {
+          .put(`http://localhost:9000/Users/${Params.UserId}`, {
             ...user,
             Cart: updatedCart
           })
@@ -98,13 +101,14 @@ function Cart() {
           ))}
         </tbody>
       </table>
-
-      <button
-        className="btn btn-warning btn-sm p-10"
-        style={{ display: "flex", justifyContent: "center" }}
-      >
-        Check out
-      </button>
+      <Link to={`${Params.UserId}/Checkout`}>
+        <button
+          className="btn btn-warning btn-sm p-10"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          Check out
+        </button>
+      </Link>
       <h4>{total}$</h4>
     </>
   );
