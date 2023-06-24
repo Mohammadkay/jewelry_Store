@@ -1,9 +1,11 @@
 import React from "react";
-import './Footer.css'
+import "./Footer.css";
+
+import "../../../node_modules/bootstrap/dist/js/bootstrap.js";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
 function Footer() {
   return (
     <div className="FOOTER">
-        
       <footer
         className="text-center text-white"
         style={{ backgroundColor: "#f1f1f1" }}
@@ -68,10 +70,9 @@ function Footer() {
 
         <div
           className="text-center text-dark p-3"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)"}}
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           © 2023 Copyright:Jewelery Store
-         
         </div>
       </footer>
     </div>
