@@ -340,7 +340,17 @@
       "IsLogin": true,
       "Address": "",
       "History": [],
-      "Cart": [],
+      "Cart": [
+        {
+          "id": 3,
+          "name": "Tanzanite  Pendant",
+          "price": 3000,
+          "description": "An exquisite tanzanite and diamond pendant that captures attention with its vibrant colors.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_1024x1024.jpg?v=1435561424",
+          "category": "Necklaces",
+          "quantity": 6
+        }
+      ],
       "Favorite": [],
       "id": 8
     },
