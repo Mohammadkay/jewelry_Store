@@ -340,24 +340,6 @@
           "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
           "category": "Necklaces",
           "quantity": 3
-        },
-        {
-          "id": 15,
-          "name": "Opal Drop Earrings",
-          "price": 399,
-          "description": "Captivating opal drop earrings that showcase a spectrum of mesmerizing colors.",
-          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_290744CZ_RGB_1000x.jpg?v=1585598886",
-          "category": "Earrings",
-          "quantity": 1
-        },
-        {
-          "id": 17,
-          "name": "Rose  Bracelet",
-          "price": 320,
-          "description": "A beautiful rose gold bracelet that adds a touch of warmth and elegance to your wrist.",
-          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/hc3xi2rknb2v4g8erwd3rftsd9u233m4_1000x.jpg?v=1678258708",
-          "category": "Bracelets",
-          "quantity": 1
         }
       ],
       "Favorite": [],
