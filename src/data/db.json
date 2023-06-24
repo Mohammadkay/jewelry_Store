@@ -324,15 +324,6 @@
       "History": [],
       "Cart": [
         {
-          "id": 2,
-          "name": "Ruby Pendant Necklace",
-          "price": 600,
-          "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
-          "category": "Necklaces",
-          "quantity": 3
-        },
-        {
           "id": 1,
           "name": "Elegant Diamond Necklace",
           "price": 1074,
@@ -344,6 +335,24 @@
       ],
       "Favorite": [],
       "id": 7
+    },
+    {
+      "email": "ahmad@ahmad.com",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "ahmadBASSAM12",
+      "username": "ahmad",
+      "Image": "./",
+      "IsLogin": true,
+      "Address": "",
+      "History": [],
+      "Cart": [],
+      "Favorite": [],
+      "id": 8
     }
   ]
 }

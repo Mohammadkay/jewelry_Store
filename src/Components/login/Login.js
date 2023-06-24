@@ -73,21 +73,23 @@ function Login() {
 
   return (
     <>
-      <div className="containerr">
+      <div className="login-containerr">
         <h4>Login</h4>
+        <br></br>
         <h6>Customer Login</h6>
-        <div className="errors">{error && <p>{error}</p>}</div>
 
-        <form onSubmit={FormHandle}>
-          <label>Email</label>
-          <input type="text" onChange={getEmail} />
-          <label>Password</label>
-          <input type="password" onChange={getPassword} />
-          <span>
-            <b>Forget Password ?</b>
+        <form  className = " login-form"onSubmit={FormHandle}>
+          <label  className="login-label">Email</label>
+          <input className="login-input"type="text" onChange={getEmail} />
+          <label className="login-label">Password</label>
+          <input className="login-input"type="password" onChange={getPassword} />
+        <div className="login-errors">{error && <p className="login-p">{error}</p>}</div>
+          
+          <span className="login-span">
+            Forget Password ?
           </span>
 
-          <button type="submit">Sign in</button>
+          <button className="login-button" type="submit">Sign in</button>
         </form>
       </div>
     </>
