@@ -5,6 +5,11 @@ import Checkout from "./Components/Checkout/Checkout";
 import { Routes, Route } from "react-router-dom";
 import Login from "./Components/login/Login";
 function App() {
-  return <></>;
+  return (
+    <>
+      <Login />
+      <Register />
+    </>
+  );
 }
 export default App;

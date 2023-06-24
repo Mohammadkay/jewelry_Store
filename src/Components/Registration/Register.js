@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./Register.css";
+// import "./Register.css";
 import axios from "axios";
 
 function Register() {
