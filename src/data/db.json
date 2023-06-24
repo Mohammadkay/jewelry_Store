@@ -322,54 +322,36 @@
       "Image": "./",
       "IsLogin": true,
       "Address": "",
-      "History": [],
+      "History": [
+        {
+          "id": 1,
+          "name": "Elegant Diamond Necklace",
+          "price": 1074,
+          "description": "A stunning diamond necklace that exudes elegance and sophistication.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
+          "category": "Necklaces",
+          "quantity": 3
+        }
+      ],
       "Cart": [],
       "Favorite": [],
       "id": 7
     },
     {
-      "email": "Mohammad@gamil.com",
+      "email": "ahmad@ahmad.com",
       "phone": "",
       "country": "",
       "city": "",
       "address": "",
       "firstname": "",
       "lastname": "",
-      "password": "kayyalI12",
-      "username": "Mohammad2",
+      "password": "ahmadBASSAM12",
+      "username": "ahmad",
       "Image": "./",
       "IsLogin": true,
       "Address": "",
       "History": [],
-      "Cart": [
-        {
-          "id": 1,
-          "name": "Elegant Diamond Necklace",
-          "price": 3938,
-          "description": "A stunning diamond necklace that exudes elegance and sophistication.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
-          "category": "Necklaces",
-          "quantity": 11
-        },
-        {
-          "id": 6,
-          "name": "Pearl Strand Necklace",
-          "price": 499,
-          "description": "A classic pearl strand necklace that embodies timeless elegance.",
-          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391455C01_RGB_1000x1000.png?v=1646288130",
-          "category": "Necklaces",
-          "quantity": 1
-        },
-        {
-          "id": 22,
-          "name": "Rose Infinity Bracelet",
-          "price": 349,
-          "description": "A symbol of eternal love, this rose gold infinity bracelet makes a meaningful gift.",
-          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590702HV_RGB_1000x.jpg?v=1582549504",
-          "category": "Bracelets",
-          "quantity": 1
-        }
-      ],
+      "Cart": [],
       "Favorite": [],
       "id": 8
     },
