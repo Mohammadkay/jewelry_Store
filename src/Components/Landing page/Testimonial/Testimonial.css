@@ -3,13 +3,16 @@
   justify-content: center;
   padding: 10px;
   gap: 10px;
+  display: grid;
 }
 .carrd {
   padding: 10px;
   height: 180px;
   width: 450px;
-  background-color: #faf3e9;
-  border: 1px solid rgb(236, 226, 207);
+  background-color: #f8f3ed;
+  border-left: 3px solid rgb(236, 226, 207);
+  border-right: 3px solid rgb(236, 226, 207);
+  
   text-align: center;
   border-radius: 10px;
   color: #5a5b60;
@@ -17,6 +20,7 @@
 .Testimoniall {
   margin-top: 15px;
   font-size: 30px;
+  font-family:  "Nantes Light", serif;
 }
 .descraption {
   font-size: 11px;
@@ -28,31 +32,51 @@
   font-size: 16px;
   justify-content: center;
   padding: 5px;
+  color: black;
 }
-.fa-star {
+.iconn .fa-star {
   color: rgb(233, 195, 22);
+  padding-top: 5px;
 }
 .carrd img {
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   object-fit: cover;
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .HoldTestimonial {
     grid-template-columns: 1fr;
+
+    gap: 6px;
   }
 
   .carrd {
-    width: 80%;
+    width: 100%;
+  }
+
+  .Testimoniall {
+    font-size: 24px;
+  }
+
+  .descraption {
+    font-size: 10px;
   }
 
   .NameClient {
     font-size: 14px;
   }
+}
+@media only screen and (max-width: 1024px) {
+  .HoldTestimonial {
+    grid-template-columns: 1fr;
 
-  .descraption {
-    font-size: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .carrd {
+    width: 100%;
   }
 }

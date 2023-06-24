@@ -11,12 +11,12 @@ function IndividualIntervalsExample() {
         <img
           style={{ height: "600px" ,objectFit:"cover"}}
           className="d-block w-100"
-          src="./image/j1.jpg"
+          src="./image/j1.png"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h1>LIVE THE MOMENT</h1>
-          <h3>welcome to the World Jewelry </h3>
+          <h1 style={{color:"white" , fontSize:"20px"}}>LIVE THE MOMENT</h1>
+          <h3>Welcome to the World Jewelry </h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>

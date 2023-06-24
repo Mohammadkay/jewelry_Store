@@ -18,8 +18,8 @@ function OurTeam(propos) {
           <img src={info.avatar_url} alt="pic" className="Image" />
           <h4>{info.login}</h4>
           <p>Developer</p>
-          <div className="icons ">
-            <i className="fa-brands fa-github fa-2xl"></i>
+          <div className="iconss">
+            <i className="fa-brands fa-github fa-2xl" ></i>
             <i className="fa-brands fa-linkedin fa-2xl"></i>
           </div>
         </div>
