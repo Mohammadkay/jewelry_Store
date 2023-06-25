@@ -533,6 +533,35 @@
       "Favorite": [],
       "id": 11,
       "Date": "6/25/2023"
+    },
+    {
+      "email": "kayyali@ex.com",
+      "phone": "56165156",
+      "country": "Zarqa",
+      "city": "sdadsa",
+      "address": "KAYYALI",
+      "firstname": "sad",
+      "lastname": "Kayyali",
+      "password": "kayyali123HK",
+      "username": "kayyali",
+      "Image": "./",
+      "IsLogin": true,
+      "Address": "",
+      "History": [
+        {
+          "id": 10,
+          "name": " Cluster Stud Earrings",
+          "price": 1677,
+          "description": "Stunning diamond cluster stud earrings that sparkle from every angle.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_290012C01_RGB_1000x1000.png?v=1635431820s",
+          "category": "Earrings",
+          "quantity": 3
+        }
+      ],
+      "Cart": [],
+      "Favorite": [],
+      "id": 12,
+      "Date": "6/25/2023"
     }
   ]
 }

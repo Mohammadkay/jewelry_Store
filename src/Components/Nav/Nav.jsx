@@ -62,7 +62,6 @@ const Nav = ({}) => {
             <ul className="navbar-nav nav-up-line">
               {userId >= 1 ? (
                 <>
-                  {" "}
                   <li className="nav-item">
                     <Link className="nav-link" to={`${userId}/History`}>
                       History
@@ -74,7 +73,6 @@ const Nav = ({}) => {
                 </>
               ) : (
                 <>
-                  {" "}
                   <li className="nav-item">
                     <Link className="nav-link" to="/Login">
                       LOGIN

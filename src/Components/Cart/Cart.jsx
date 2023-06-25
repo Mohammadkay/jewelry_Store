@@ -59,10 +59,10 @@ function Cart() {
   }
 
   return (
-    <>
+    <div className="container">
       <h1>Shopping Cart</h1>
 
-      <table className="table table-light">
+      <table className="table table-light  ">
         <thead>
           <tr>
             <th scope="col">Image</th>
@@ -99,8 +99,14 @@ function Cart() {
           ))}
         </tbody>
       </table>
-      <div style={{ alignSelf: "center" }}>
-        <h4 style={{ textAlign: "center" }}>{total}$</h4>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center"
+        }}
+      >
+        <h4>{total}$</h4>
         <Link to={`${Params.UserId}/Checkout`}>
           <button
             className="btn btn-warning btn-sm p-10"
@@ -114,7 +120,7 @@ function Cart() {
           </button>
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 
