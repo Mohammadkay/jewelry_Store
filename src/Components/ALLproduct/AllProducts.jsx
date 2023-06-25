@@ -3,7 +3,7 @@ import "./AllProducts.css";
 import { useParams, Link } from "react-router-dom";
 export default function AllProducts() {
   const [products, setProduct] = useState([]);
-  const [currentUsers, setUser] = useState([]);
+
   let Params = useParams();
   useEffect(() => {
     fetch("http://localhost:9000/jewelryArray")
@@ -11,18 +11,8 @@ export default function AllProducts() {
       .then((data) => {
         setProduct(data);
       });
-    getCuruntUser();
   }, []);
 
-  function getCuruntUser() {
-    if (Params.UserId !== undefined) {
-      fetch(`http://localhost:9000/Users/${Params.UserId}`)
-        .then((res) => res.json())
-        .then((data) => {
-          setUser(data);
-        });
-    }
-  }
   function links(id) {
     if (Params.UserId !== undefined) {
       return `ProductDetails/${id}`;

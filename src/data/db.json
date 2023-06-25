@@ -293,10 +293,10 @@
     {
       "email": "laythalzbaidy@gmail.com",
       "phone": "56165156",
-      "country": "Irbid",
-      "city": "sdadsa",
+      "country": "Zarqa",
+      "city": "sadsadsad",
       "address": "Amman",
-      "firstname": "asdsadsasda",
+      "firstname": "sadsda",
       "lastname": "adssdasadsad",
       "password": "123123Qq123",
       "username": "layth",
@@ -305,35 +305,16 @@
       "Address": "",
       "History": [
         {
-          "id": 1,
-          "name": "Elegant Diamond Necklace",
-          "price": 2506,
-          "description": "A stunning diamond necklace that exudes elegance and sophistication.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
-          "category": "Necklaces",
+          "id": 14,
+          "name": " Topaz Stud Earrings",
+          "price": 2093,
+          "description": "Gorgeous blue topaz stud earrings that capture the essence of tranquility.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_291445C01_RGB_1000x.png?v=1649579696",
+          "category": "Earrings",
           "quantity": 7
-        },
-        {
-          "id": 18,
-          "name": " Tennis Bracelet",
-          "price": 1260,
-          "description": "A timeless and luxurious diamond tennis bracelet that dazzles with every movement.",
-          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_592403C01_RGB_1000x.png?v=1667742718",
-          "category": "Bracelets",
-          "quantity": 3
         }
       ],
-      "Cart": [
-        {
-          "id": 2,
-          "name": "Ruby Pendant Necklace",
-          "price": 200,
-          "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
-          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
-          "category": "Necklaces",
-          "quantity": 1
-        }
-      ],
+      "Cart": [],
       "Favorite": [],
       "id": 5,
       "Date": "6/25/2023"

@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import "./productDetails.css";
 import axios from "axios";
-import { useParams ,useNavigate } from "react-router-dom";
-import Swal from 'sweetalert2' 
+import { useParams, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 function ProductDetails() {
-  let navigate =useNavigate()
+  let navigate = useNavigate();
   let Params = useParams();
-  console.log(Params)
+  //{UserId: ,ProductId}
+
   const [product, setProduct] = useState([]);
   const [price, setPrice] = useState("");
   const [user, setUser] = useState("");
@@ -17,7 +18,6 @@ function ProductDetails() {
     GetProduct();
     if (Params.UserId !== undefined) {
       Getusers();
-
       Getcart();
     }
   }, []);
@@ -55,7 +55,7 @@ function ProductDetails() {
         Cart: updatedCart
       });
     } else {
-      console.log(cart);
+      
       const updatedCart = cart.map((e) => {
         if (e.id === product.id) {
           return {
@@ -72,23 +72,20 @@ function ProductDetails() {
         Cart: updatedCart
       });
     }
-    
   };
 
   function addToCart() {
     UpdateUser();
     Swal.fire({
-      position: 'center',
-      icon: 'success',
-      title: 'Your work has been saved',
-      showConfirmButton: true,
-    
-    }).then((res)=>{
-    
-      if(res.isConfirmed){
-        navigate(`/${Params.UserId}/AllProducts`)
+      position: "center",
+      icon: "success",
+      title: "Your work has been saved",
+      showConfirmButton: true
+    }).then((res) => {
+      if (res.isConfirmed) {
+        navigate(`/${Params.UserId}/AllProducts`);
       }
-    })
+    });
   }
 
   function incrementQuantity() {

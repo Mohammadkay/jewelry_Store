@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 import { useNavigate, useParams } from "react-router";
 // import j2 from '../image/j2.jpg';
 function Checkout() {
-  const [Users, setUsers] = useState([]);
+  
   const [User, setUser] = useState([]);
   let navegate = useNavigate();
   let Params = useParams();
@@ -19,15 +19,11 @@ function Checkout() {
   });
 
   useEffect(() => {
-    GetDataUsers();
+    
     GetDataUser();
   }, []);
 
-  const GetDataUsers = () => {
-    axios
-      .get("http://localhost:9000/Users")
-      .then((respons) => setUsers(respons.data));
-  };
+
 
   const GetDataUser = () => {
     axios

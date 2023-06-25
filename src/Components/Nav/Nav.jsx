@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Nav.css";
 import { Link, useLocation } from "react-router-dom";
 
-const Nav = ({}) => {
+const Nav = () => {
   const location = useLocation();
   console.log(location);
   const userId = location.pathname.split("/")[1];
@@ -30,6 +30,13 @@ const Nav = ({}) => {
       return `${userId}/Cart`;
     } else {
       return "/Login";
+    }
+  }
+  function getUserIdHome() {
+    if (userId >= 1) {
+      return `/${userId}`;
+    } else {
+      return "/";
     }
   }
   return (
@@ -146,7 +153,7 @@ const Nav = ({}) => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to={getUserIdHome()}>
                   HOME
                 </Link>
               </li>
