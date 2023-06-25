@@ -323,7 +323,17 @@
           "quantity": 3
         }
       ],
-      "Cart": [],
+      "Cart": [
+        {
+          "id": 2,
+          "name": "Ruby Pendant Necklace",
+          "price": 200,
+          "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
+          "category": "Necklaces",
+          "quantity": 1
+        }
+      ],
       "Favorite": [],
       "id": 5,
       "Date": "6/25/2023"
@@ -466,6 +476,63 @@
       "Cart": [],
       "Favorite": [],
       "id": 10
+    },
+    {
+      "email": "kayyali@gmail.",
+      "phone": "056565688979",
+      "country": "Zarqa",
+      "city": "sdadsa",
+      "address": "Amman",
+      "firstname": "asdsadsasda",
+      "lastname": "Kayyali",
+      "password": "kayyali123AS",
+      "username": "Kayyali2",
+      "Image": "./",
+      "IsLogin": true,
+      "Address": "",
+      "History": [
+        {
+          "id": 10,
+          "name": " Cluster Stud Earrings",
+          "price": 1677,
+          "description": "Stunning diamond cluster stud earrings that sparkle from every angle.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_290012C01_RGB_1000x1000.png?v=1635431820s",
+          "category": "Earrings",
+          "quantity": 3
+        },
+        {
+          "id": 22,
+          "name": "Rose Infinity Bracelet",
+          "price": 1047,
+          "description": "A symbol of eternal love, this rose gold infinity bracelet makes a meaningful gift.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/HIGH_RGB_590702HV_RGB_1000x.jpg?v=1582549504",
+          "category": "Bracelets",
+          "quantity": 3
+        }
+      ],
+      "Cart": [
+        {
+          "id": 1,
+          "name": "Elegant Diamond Necklace",
+          "price": 716,
+          "description": "A stunning diamond necklace that exudes elegance and sophistication.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
+          "category": "Necklaces",
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Ruby Pendant Necklace",
+          "price": 1000,
+          "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
+          "category": "Necklaces",
+          "quantity": 5
+        }
+      ],
+      "Favorite": [],
+      "id": 11,
+      "Date": "6/25/2023"
     }
   ]
 }

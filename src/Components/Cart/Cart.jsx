@@ -99,15 +99,21 @@ function Cart() {
           ))}
         </tbody>
       </table>
-      <Link to={`${Params.UserId}/Checkout`}>
-        <button
-          className="btn btn-warning btn-sm p-10"
-          style={{ display: "flex", justifyContent: "center" }}
-        >
-          Check out
-        </button>
-      </Link>
-      <h4>{total}$</h4>
+      <div style={{ alignSelf: "center" }}>
+        <h4 style={{ textAlign: "center" }}>{total}$</h4>
+        <Link to={`${Params.UserId}/Checkout`}>
+          <button
+            className="btn btn-warning btn-sm p-10"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              width: "130px"
+            }}
+          >
+            Check out
+          </button>
+        </Link>
+      </div>
     </>
   );
 }
