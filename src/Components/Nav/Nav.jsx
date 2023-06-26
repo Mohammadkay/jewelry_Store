@@ -103,17 +103,17 @@ const Nav = () => {
               >
                 <li>
                   <a href="#">
-                    <i className="fab fa-facebook-f fa-lg text-secondary"></i>
+                    <i className="fab fa-facebook-f fa-flag1 fa-xl text-secondary"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fab fa-twitter fa-lg text-secondary"></i>
+                    <i className="fab fa-flag2 fa-twitter fa-xl text-secondary"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fab fa-youtube fa-lg text-secondary"></i>
+                    <i className="fab fa-flag3 fa-youtube fa-xl text-secondary"></i>
                   </a>
                 </li>
               </div>
@@ -128,12 +128,11 @@ const Nav = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light transparent-navbar">
           <a className="navbar-brand">
             <img
-              className="col-sm"
+              className="col-sm nav_logo"
               src="./image/loogggo3.png"
               alt=""
-              width="50px"
+              width="180px"
             />
-            <img src="./image/Untitle22d-1.png" alt="" width="130px" />
           </a>
           <button
             className="navbar-toggler"

@@ -292,12 +292,12 @@
   "Users": [
     {
       "email": "laythalzbaidy@gmail.com",
-      "phone": "56165156",
-      "country": "Zarqa",
+      "phone": "056565688979",
+      "country": "Mafraq",
       "city": "sadsadsad",
-      "address": "Amman",
-      "firstname": "sadsda",
-      "lastname": "adssdasadsad",
+      "address": "SA",
+      "firstname": "sdadsa",
+      "lastname": "sadsda",
       "password": "123123Qq123",
       "username": "layth",
       "Image": "./",
@@ -305,35 +305,44 @@
       "Address": "",
       "History": [
         {
-          "id": 14,
-          "name": " Topaz Stud Earrings",
-          "price": 2093,
-          "description": "Gorgeous blue topaz stud earrings that capture the essence of tranquility.",
-          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_291445C01_RGB_1000x.png?v=1649579696",
-          "category": "Earrings",
-          "quantity": 7
+          "id": 1,
+          "name": "Elegant Diamond Necklace",
+          "price": 1432,
+          "description": "A stunning diamond necklace that exudes elegance and sophistication.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/10_1024x1024.jpg?v=1435561709",
+          "category": "Necklaces",
+          "quantity": 4
         }
       ],
-      "Cart": [],
+      "Cart": [
+        {
+          "id": 2,
+          "name": "Ruby Pendant Necklace",
+          "price": 600,
+          "description": "A charming ruby pendant necklace that adds a pop of color to your neckline.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/8_21b3273c-8fc0-40e8-8aa8-69ef72330c30_1024x1024.jpg?v=1435561707",
+          "category": "Necklaces",
+          "quantity": 3
+        }
+      ],
       "Favorite": [],
       "id": 5,
-      "Date": "6/25/2023"
+      "Date": "6/26/2023"
     },
     {
       "email": "kayyali@gmail.com21",
-      "phone": "32445",
-      "country": "Mafraq",
-      "city": "jkkl",
-      "address": "hjk",
-      "firstname": "ddd",
-      "lastname": "aaaa",
+      "phone": "056565688979",
+      "country": "Zarqa",
+      "city": "sadsadsad",
+      "address": "SA",
+      "firstname": "sdadsa",
+      "lastname": "sadsda",
       "password": "Kauuasdasl21",
       "username": "Mohammad21",
       "Image": "./",
       "IsLogin": true,
       "Address": "",
-      "History": [],
-      "Cart": [
+      "History": [
         {
           "id": 2,
           "name": "Ruby Pendant Necklace",
@@ -351,10 +360,21 @@
           "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_399260C00_V2_RGB_1000x.png?v=1626262071",
           "category": "Necklaces",
           "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "Tanzanite  Pendant",
+          "price": 2000,
+          "description": "An exquisite tanzanite and diamond pendant that captures attention with its vibrant colors.",
+          "image": "https://cdn.shopify.com/s/files/1/0908/7252/products/4_0fe2529b-f7ae-4ed5-a8ff-4fae623757f9_1024x1024.jpg?v=1435561424",
+          "category": "Necklaces",
+          "quantity": 4
         }
       ],
+      "Cart": [],
       "Favorite": [],
-      "id": 7
+      "id": 7,
+      "Date": "6/26/2023"
     },
     {
       "email": "ahmad@ahmad.com",
@@ -543,6 +563,43 @@
       "Favorite": [],
       "id": 12,
       "Date": "6/25/2023"
+    },
+    {
+      "email": "Mohammad@gmail.com",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "address": "",
+      "firstname": "",
+      "lastname": "",
+      "password": "kayyaliM12",
+      "username": "Mohammad11",
+      "Image": "./",
+      "IsLogin": true,
+      "Address": "",
+      "History": [],
+      "Cart": [
+        {
+          "id": 10,
+          "name": " Cluster Stud Earrings",
+          "price": 1677,
+          "description": "Stunning diamond cluster stud earrings that sparkle from every angle.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_290012C01_RGB_1000x1000.png?v=1635431820s",
+          "category": "Earrings",
+          "quantity": 3
+        },
+        {
+          "id": 11,
+          "name": " Hoop Earrings",
+          "price": 597,
+          "description": "Classic and versatile gold hoop earrings that complement any style.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_268820C01_RGB_1000x1000.png?v=1681296011https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_268820C01_RGB_1000x1000.png?v=1681296011",
+          "category": "Earrings",
+          "quantity": 3
+        }
+      ],
+      "Favorite": [],
+      "id": 13
     }
   ]
 }

@@ -53,7 +53,7 @@ function Checkout() {
       .catch((error) => {
         console.log(error);
       });
-    console.log(User);
+    
   };
 
   // const ele = Users.find((elemnt) => {

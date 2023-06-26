@@ -54,3 +54,21 @@ button {
 .second-nav li {
   margin-left: 25px;
 }
+.fa-flag1:hover {
+  color: #129cf6 !important;
+  transition: 0.5s;
+}
+.fa-flag2:hover {
+  color: #1da1f2 !important;
+  transition: 0.5s;
+}
+.fa-flag3:hover {
+  color: red !important;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 358px) {
+  .nav_logo {
+    width: 127px;
+  }
+}

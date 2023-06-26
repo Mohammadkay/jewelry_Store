@@ -59,9 +59,9 @@ function Cart() {
   }
 
   return (
-    <div className="container">
+    <div className="container" style={{ overflowX: "auto" }}>
       <h1>Shopping Cart</h1>
-
+      <div style={{ overflowX: "auto" }}></div>
       <table className="table table-light  ">
         <thead>
           <tr>

@@ -32,9 +32,9 @@ function History() {
   }
   return (
     <div>
-      <div className="container">
+      <div className="container" style={{ overflowX: "auto" }}>
         <h1 className="mb-4">Order History</h1>
-        <table className="table HistoryTable">
+        <table className="table HistoryTable" style={{ overflowX: "auto" }}>
           <thead className="thead-dark">
             <tr>
               <th scope="col">Product Image</th>

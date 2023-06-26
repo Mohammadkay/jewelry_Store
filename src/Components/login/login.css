@@ -5,7 +5,9 @@ body {
 .login-containerr {
   margin: auto;
   width: 80%;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
 }
 
 .login-form {
@@ -37,9 +39,11 @@ body {
   border: 1px solid #d8d8d8;
   padding: 10px;
   border-radius: 8px;
-  width: 350px;
+  width: 300px;
   padding: 10px 0;
   align-self: baseline;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .login-button:hover {
@@ -58,9 +62,7 @@ body {
   margin: 5px;
   line-height: 15px;
 }
-.login-p {
-  color: RED;
-}
+
 .login-span {
   font-weight: 500 !important;
   color: #a07936;
@@ -71,10 +73,18 @@ body {
 .login-span:hover {
   color: #171717;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 350px) and (max-width: 600px) {
   .login-containerr {
     margin: auto;
     width: 100vw;
     padding: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .login-button {
+    width: 230px;
+  }
+  .login-form .login-input  {
+    width: 230px;
   }
 }

@@ -6,7 +6,7 @@ import IndividualIntervalsExample from "./Sliderimg/Sliderimg";
 import OurTeamCountainer from "./OurTeam/OurTeamCountainer";
 export default function Landing() {
   return (
-    <div>
+    <div style={{background:"#fff"}}>
       <IndividualIntervalsExample />
       <Categories />
       <AboutUs  />

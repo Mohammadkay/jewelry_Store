@@ -75,10 +75,9 @@ function Login() {
     <>
       <div className="login-containerr">
         <h4>Login</h4>
-        <br></br>
-        <h6>Customer Login</h6>
+ 
 
-        <form  className = " login-form"onSubmit={FormHandle}>
+        <form  className = "login-form"onSubmit={FormHandle}>
           <label  className="login-label">Email</label>
           <input className="login-input"type="text" onChange={getEmail} />
           <label className="login-label">Password</label>
