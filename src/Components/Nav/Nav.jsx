@@ -4,9 +4,9 @@ import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {
   const location = useLocation();
-  console.log(location);
+  
   const userId = location.pathname.split("/")[1];
-  console.log(userId);
+ 
   console.log(location.pathname.split("/"));
   const handleProfileToggle = () => {
     const profileMenu = document.querySelector("#navbarProfile .navbar-nav");

@@ -455,7 +455,17 @@
           "quantity": 3
         }
       ],
-      "Cart": [],
+      "Cart": [
+        {
+          "id": 4,
+          "name": "Silver Initial Pendant ",
+          "price": 447,
+          "description": "A personalized silver initial pendant necklace that adds a unique touch to your style.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_399260C00_V2_RGB_1000x.png?v=1626262071",
+          "category": "Necklaces",
+          "quantity": 3
+        }
+      ],
       "Favorite": [],
       "id": 9,
       "Date": "6/25/2023"
