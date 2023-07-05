@@ -610,6 +610,44 @@
       ],
       "Favorite": [],
       "id": 13
+    },
+    {
+      "email": "example@exam.com",
+      "phone": "056565688979",
+      "country": "Amman",
+      "city": "sadsadsad",
+      "address": "Amman",
+      "firstname": "Kayyali",
+      "lastname": "Kayyali",
+      "password": "Mkayyali1",
+      "username": "Example",
+      "Image": "./",
+      "IsLogin": true,
+      "Address": "",
+      "History": [
+        {
+          "id": 4,
+          "name": "Silver Initial Pendant ",
+          "price": 149,
+          "description": "A personalized silver initial pendant necklace that adds a unique touch to your style.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_399260C00_V2_RGB_1000x.png?v=1626262071",
+          "category": "Necklaces",
+          "quantity": 1
+        },
+        {
+          "id": 6,
+          "name": "Pearl Strand Necklace",
+          "price": 499,
+          "description": "A classic pearl strand necklace that embodies timeless elegance.",
+          "image": "https://cdn.shopify.com/s/files/1/0099/8912/8258/products/WEB_391455C01_RGB_1000x1000.png?v=1646288130",
+          "category": "Necklaces",
+          "quantity": 1
+        }
+      ],
+      "Cart": [],
+      "Favorite": [],
+      "id": 14,
+      "Date": "7/4/2023"
     }
   ]
 }
